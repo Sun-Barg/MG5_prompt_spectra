@@ -1,0 +1,648 @@
+ Process in group number            1
+ No PDF is used, alpha_s(MZ) from param_card is used
+ Value of alpha_s from param_card:   0.13000000000000003     
+ The default order of alpha_s running is fixed to            2
+ Define smin to   353.44000000000005     
+ *****************************************************
+ *               MadGraph/MadEvent                   *
+ *        --------------------------------           *
+ *          http://madgraph.hep.uiuc.edu             *
+ *          http://madgraph.phys.ucl.ac.be           *
+ *          http://madgraph.roma2.infn.it            *
+ *        --------------------------------           *
+ *                                                   *
+ *          PARAMETER AND COUPLING VALUES            *
+ *                                                   *
+ *****************************************************
+
+  External Params
+  ---------------------------------
+  
+ mdl_cabi =   0.22773599999999999     
+ mdl_vev =    246.22000000000000     
+ mdl_lam =   0.13000000000000000     
+ mdl_lam1 =    4.5000000000000000     
+ mdl_lam2 =   -5.4999999999999997E-003
+ mdl_lam3 =   -391.50999999999999     
+ mdl_lam4 =    2.2000000000000002     
+ mdl_gg =    5.6000000000000001E-002
+ mdl_vs =    276.20999999999998     
+ mdl_mpsi0 =    52.165900000000001     
+ mdl_sinxi =    1.0000000000000000     
+ mdl_MD =    5.0400000000000002E-003
+ mdl_MU =    2.5500000000000002E-003
+ mdl_MS =   0.10100000000000001     
+ mdl_MC =    1.2700000000000000     
+ mdl_MB =    4.7000000000000002     
+ mdl_MT =    172.00000000000000     
+ mdl_Me =    5.1099999999999995E-004
+ mdl_MMU =   0.10566000000000000     
+ mdl_MTA =    1.7769999999999999     
+ mdl_MZ =    91.187600000000003     
+ mdl_mh1 =    125.09999999999999     
+ mdl_mh2 =    48.976810000000000     
+ mdl_mpsi =    97.953620000000001     
+ aEWM1 =    127.90000000000001     
+ mdl_Gf =    1.1663700000000000E-005
+ aS =   0.13000000000000003     
+ mdl_ymdo =    5.0400000000000002E-003
+ mdl_ymup =    2.5500000000000002E-003
+ mdl_yms =   0.10100000000000001     
+ mdl_ymc =    1.2700000000000000     
+ mdl_ymb =    4.7000000000000002     
+ mdl_ymt =    172.00000000000000     
+ mdl_yme =    5.1099999999999995E-004
+ mdl_ymm =   0.10566000000000000     
+ mdl_ymtau =    1.7769999999999999     
+ mdl_WT =    1.4668770000000000     
+ mdl_WZ =    2.4115959999999999     
+ mdl_WW =    2.0025240000000002     
+ mdl_wh1 =    6.0566400000000003E-003
+ mdl_wh2 =    1.4199170000000000E-006
+  Internal Params
+  ---------------------------------
+  
+ mdl_sqrt__2 =    1.4142135623730951     
+ mdl_ye =    2.9350301777786193E-006
+ mdl_ym =    6.0687923401974353E-004
+ mdl_ytau =    1.0206553083977703E-002
+ mdl_yup =    1.4646432394002896E-005
+ mdl_yc =    7.2944977021112455E-003
+ mdl_yt =   0.98791622422294023     
+ mdl_ydo =    2.8948242849323368E-005
+ mdl_ys =    5.8011359678207552E-004
+ mdl_yb =    2.6995385196789651E-002
+ mdl_cos__cabi =   0.97418004031982097     
+ mdl_CKM1x1 =               (0.97418004031982097,0.0000000000000000)
+ mdl_sin__cabi =   0.22577256042856930     
+ mdl_CKM1x2 =               (0.22577256042856930,0.0000000000000000)
+ mdl_CKM1x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM2x1 =              (-0.22577256042856930,0.0000000000000000)
+ mdl_CKM2x2 =               (0.97418004031982097,0.0000000000000000)
+ mdl_CKM2x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x1 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x2 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x3 =                (1.0000000000000000,0.0000000000000000)
+ mdl_sinxi__exp__2 =    1.0000000000000000     
+ mdl_cosxi =    0.0000000000000000     
+ mdl_vev__exp__2 =    60624.288399999998     
+ mdl_musSq =    1384.1077984718193     
+ mdl_muhsSq =    359.89731180000007     
+ mdl_muhSq =    15762.314984000001     
+ mdl_muH =    8704.4966894499994     
+ mdl_musq =    8704.4966894499994     
+ mdl_vs__exp__2 =    76291.964099999983     
+ mdl_mm =    25935.357974671813     
+ mdl_MZ__exp__2 =    8315.1783937600012     
+ mdl_MZ__exp__4 =    69142191.720053151     
+ mdl_yhs =    5.0061500318654549E-002
+ mdl_yhs__exp__2 =    2.5061538141546496E-003
+ mdl_tth =    2.5015087052767792E-002
+ mdl_tth__exp__2 =    6.2575458025755084E-004
+ mdl_CTH =   0.99968726947164066     
+ mdl_STH =    2.5007264071376826E-002
+ mdl_conjg__CKM1x1 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_I1b11 =          (2.82008003861418083E-005,0.0000000000000000)
+ mdl_conjg__CKM2x1 =             (-0.22577256042856930,-0.0000000000000000)
+ mdl_I1b12 =        (-6.53571890799975980E-006,-0.0000000000000000)
+ mdl_conjg__CKM3x1 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_I1b13 =                (0.0000000000000000,0.0000000000000000)
+ mdl_conjg__CKM1x2 =              (0.22577256042856930,-0.0000000000000000)
+ mdl_I1b21 =          (1.30973732084915822E-004,0.0000000000000000)
+ mdl_conjg__CKM2x2 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_I1b22 =          (5.65135087103238714E-004,0.0000000000000000)
+ mdl_conjg__CKM3x2 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_I1b23 =                (0.0000000000000000,0.0000000000000000)
+ mdl_conjg__CKM1x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_I1b31 =                (0.0000000000000000,0.0000000000000000)
+ mdl_conjg__CKM2x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_I1b32 =                (0.0000000000000000,0.0000000000000000)
+ mdl_conjg__CKM3x3 =               (1.0000000000000000,-0.0000000000000000)
+ mdl_I1b33 =          (2.69953851967896508E-002,0.0000000000000000)
+ mdl_I2b11 =          (1.42682621001312744E-005,0.0000000000000000)
+ mdl_I2b12 =        (-1.64689742324597107E-003,-0.0000000000000000)
+ mdl_I2b13 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I2b21 =          (3.30676254273797376E-006,0.0000000000000000)
+ mdl_I2b22 =          (7.10615406555557480E-003,0.0000000000000000)
+ mdl_I2b23 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I2b31 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I2b32 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I2b33 =               (0.98791622422294023,0.0000000000000000)
+ mdl_I3b11 =          (1.42682621001312744E-005,0.0000000000000000)
+ mdl_I3b12 =          (3.30676254273797376E-006,0.0000000000000000)
+ mdl_I3b13 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I3b21 =         (-1.64689742324597107E-003,0.0000000000000000)
+ mdl_I3b22 =          (7.10615406555557480E-003,0.0000000000000000)
+ mdl_I3b23 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I3b31 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I3b32 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I3b33 =               (0.98791622422294023,0.0000000000000000)
+ mdl_I4b11 =          (2.82008003861418083E-005,0.0000000000000000)
+ mdl_I4b12 =          (1.30973732084915822E-004,0.0000000000000000)
+ mdl_I4b13 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I4b21 =         (-6.53571890799975980E-006,0.0000000000000000)
+ mdl_I4b22 =          (5.65135087103238714E-004,0.0000000000000000)
+ mdl_I4b23 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I4b31 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I4b32 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I4b33 =          (2.69953851967896508E-002,0.0000000000000000)
+ mdl_complexi =                (0.0000000000000000,1.0000000000000000)
+ mdl_CTH__exp__2 =   0.99937463674366467     
+ mdl_CTH__exp__4 =   0.99874966456653169     
+ mdl_CTH__exp__3 =   0.99906210178548693     
+ mdl_STH__exp__2 =    6.2536325633557428E-004
+ mdl_STH__exp__3 =    1.5638624091719823E-005
+ mdl_STH__exp__4 =    3.9107920237463319E-007
+ mdl_aEW =    7.8186082877247844E-003
+ mdl_MW =    79.824359746197842     
+ mdl_sqrt__aEW =    8.8422894590285753E-002
+ mdl_ee =   0.31345100004952897     
+ mdl_MW__exp__2 =    6371.9284088904105     
+ mdl_sw2 =   0.23369913342182447     
+ mdl_cw =   0.87538612427783857     
+ mdl_sqrt__sw2 =   0.48342438232036300     
+ mdl_sw =   0.48342438232036300     
+ mdl_g1 =   0.35807170271074895     
+ mdl_gw =   0.64839716719502682     
+ mdl_ee__exp__2 =    9.8251529432049817E-002
+ mdl_sw__exp__2 =   0.23369913342182450     
+ mdl_cw__exp__2 =   0.76630086657817542     
+  Internal Params evaluated point by point
+  ----------------------------------------
+  
+ mdl_sqrt__aS =   0.36055512754639896     
+ mdl_G__exp__2 =    1.6336281798666927     
+  Couplings of SFDM_Gev_excess
+  ---------------------------------
+  
+        GC_13 =  -0.00000E+00  -0.00000E+00
+        GC_55 =   0.55982E-01   0.00000E+00
+        GC_58 =  -0.00000E+00  -0.00000E+00
+        GC_61 =   0.14004E-02   0.00000E+00
+       GC_137 =   0.00000E+00  -0.21616E+03
+       GC_139 =   0.00000E+00  -0.26265E+01
+       GC_143 =   0.00000E+00   0.47735E-03
+
+ Collider parameters:
+ --------------------
+
+ Running at e e   machine @    197.86630494761690       GeV
+ PDF set = none   
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ Renormalization scale set on event-by-event basis
+ Factorization   scale set on event-by-event basis
+
+
+ getting user params
+Enter number of events and max and min iterations: 
+ Number of events and iterations         1000           5           3
+Enter desired fractional accuracy: 
+ Desired fractional accuracy:   0.10000000000000001     
+Enter 0 for fixed, 2 for adjustable grid: 
+Suppress amplitude (0 no, 1 yes)? 
+ Using suppressed amplitude.
+Exact helicity sum (0 yes, n = number/event)? 
+ Explicitly summing over helicities
+Enter Configuration Number: 
+Running Configuration Number:    1
+ Using dconfig=          18
+ BW Setting            0           0           2           0
+ Attempting mappinvarients           1           6
+ Determine nb_t
+ T-channel found:            0
+ Completed mapping           6
+ about to integrate            8        1000           5           3           8           1
+ Using non-zero grid deformation.
+  8 dimensions   1000 events  8 invarients  5 iterations  1 config(s),  (0.99)
+ Using h-tuple random number sequence.
+ Error opening grid
+ Using Uniform Grid!          24
+ Using uniform alpha   1.0000000000000000     
+ Grid defined OK
+ Masses: 0.980E+02 0.980E+02 0.470E+01 0.470E+01 0.470E+01 0.470E+01
+ Set CM energy to        197.87
+ Mapping Graph           1  to config           1
+ Determine nb_t
+ T-channel found:            0
+ Setting BW          -1           1   48.976810000000000     
+ Setting BW          -2           2   48.976810000000000     
+Using random seed offsets     1 :      1
+  with seed             38472885
+ Ranmar initialization seeds        3786        3520
+ 
+ ********************************************
+ * You are using the DiscreteSampler module *
+ *      part of the MG5_aMC framework       *
+ *         Author: Valentin Hirschi         *
+ ********************************************
+ 
+  Particle       3       4       5       6
+      Et >     0.0     0.0     0.0     0.0
+       E >     0.0     0.0     0.0     0.0
+     Eta <    -1.0    -1.0    -1.0    -1.0
+   xqcut:      0.0     0.0     0.0     0.0
+d R # 3  >    -0.0     0.0     0.0     0.0
+d R # 4  >    -0.0    -0.0     0.0     0.0
+d R # 5  >    -0.0    -0.0    -0.0     0.0
+s min # 3>     0.0    88.4    88.4     0.0
+s min # 4>     0.0     0.0    88.4     0.0
+s min # 5>     0.0     0.0     0.0     0.0
+xqcutij # 3>     0.0     0.0     0.0     0.0
+xqcutij # 4>     0.0     0.0     0.0     0.0
+xqcutij # 5>     0.0     0.0     0.0     0.0
+ No cut BW           -1           1
+ No cut BW           -2           2
+ Excluding BW           -3           3
+ alpha_s for scale    98.933215811082192       is   0.12825553446032856     
+ RESET CUMULATIVE VARIABLE
+ Iteration  1   Mean: 0.1958E+01 Abs mean: 0.1958E+01   Fluctuation:  0.170E-01   0.196E+01    96.2%
+  1    0.1958E+01 0.1958E+01 +- 0.1702E-01      0.27
+ Writing out events   4.0735426376076271E-004  0.27480247259153240     
+ Relative summed weights:
+  0.4926E+00  0.5074E+00
+ Relative number of events:
+  0.4926E+00  0.5074E+00
+ Events:
+         497         512
+ Iteration  2   Mean: 0.1974E+01 Abs mean: 0.1974E+01   Fluctuation:  0.992E-02   0.379E+01    98.0%
+  2    0.1974E+01 0.1974E+01 +- 0.9921E-02      0.22
+ Relative summed weights:
+  0.4813E+00  0.5187E+00
+ Relative number of events:
+  0.4815E+00  0.5185E+00
+ Events:
+         963        1037
+ Iteration  3   Mean: 0.1945E+01 Abs mean: 0.1945E+01   Fluctuation:  0.783E-02   0.280E+01    97.1%
+  3    0.1945E+01 0.1945E+01 +- 0.7833E-02      0.25
+ Relative summed weights:
+  0.5077E+00  0.4923E+00
+ Relative number of events:
+  0.5075E+00  0.4925E+00
+ Events:
+        2030        1970
+ Accuracy:    0.005   0.100   0.003   2.623
+ Finished due to accuracy    4.7861929789440689E-003  0.10000000000000001     
+
+ -------------------------------------------------------------------------------
+ Accumulated results:   Integral =  0.1957E+01
+                        Std dev  =  0.5783E-02
+                       Cross sec =  0.1957E+01
+             Chi**2 per DoF.     =      2.6227
+ -------------------------------------------------------------------------------
+ Found          383  events.
+ Wrote          380  events.
+ Actual xsec    1.9565970203246150     
+ Correct abs xsec    1.9565970203246150     
+ Event xsec    1.9565970203246026     
+ Events wgts > 1:            0
+ % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+-------------------------------------------------
+---------------------------
+ Results Last   3 iters: Integral =   0.1957E+01
+                     Abs integral =   0.1957E+01
+                          Std dev =   0.5783E-02
+                  Chi**2 per DoF. =      2.6083
+-------------------------------------------------
+---------------------------
+ Status  0.10000000000000001                4           5
+
+ls status:
+events.lhe
+ftn26
+input_app.txt
+multijob.dat
+results.dat
+run1_app.log
+run_m1000.00_r0.5_rep1_log.txt
+run_m1000.00_r0.5_rep2_log.txt
+run_m102.52_r0.5_rep1_log.txt
+run_m102.52_r0.5_rep2_log.txt
+run_m107.30_r0.5_rep1_log.txt
+run_m107.30_r0.5_rep2_log.txt
+run_m112.30_r0.5_rep1_log.txt
+run_m112.30_r0.5_rep2_log.txt
+run_m117.53_r0.5_rep1_log.txt
+run_m117.53_r0.5_rep2_log.txt
+run_m123.01_r0.5_rep1_log.txt
+run_m123.01_r0.5_rep2_log.txt
+run_m128.74_r0.5_rep1_log.txt
+run_m128.74_r0.5_rep2_log.txt
+run_m134.74_r0.5_rep1_log.txt
+run_m134.74_r0.5_rep2_log.txt
+run_m141.02_r0.5_rep1_log.txt
+run_m141.02_r0.5_rep2_log.txt
+run_m147.60_r0.5_rep1_log.txt
+run_m147.60_r0.5_rep2_log.txt
+run_m154.48_r0.5_rep1_log.txt
+run_m154.48_r0.5_rep2_log.txt
+run_m161.68_r0.5_rep1_log.txt
+run_m161.68_r0.5_rep2_log.txt
+run_m169.21_r0.5_rep1_log.txt
+run_m169.21_r0.5_rep2_log.txt
+run_m177.10_r0.5_rep2_log.txt
+run_m185.35_r0.5_rep1_log.txt
+run_m185.35_r0.5_rep2_log.txt
+run_m19.00_r0.5_rep1_log.txt
+run_m19.00_r0.5_rep2_log.txt
+run_m19.00_r0.5_rep3_log.txt
+run_m193.99_r0.5_rep1_log.txt
+run_m193.99_r0.5_rep2_log.txt
+run_m19.89_r0.5_rep1_log.txt
+run_m19.89_r0.5_rep2_log.txt
+run_m19.89_r0.5_rep3_log.txt
+run_m203.03_r0.5_rep1_log.txt
+run_m203.03_r0.5_rep2_log.txt
+run_m20.81_r0.5_rep1_log.txt
+run_m20.81_r0.5_rep2_log.txt
+run_m20.81_r0.5_rep3_log.txt
+run_m212.49_r0.5_rep1_log.txt
+run_m212.49_r0.5_rep2_log.txt
+run_m21.78_r0.5_rep1_log.txt
+run_m21.78_r0.5_rep2_log.txt
+run_m21.78_r0.5_rep3_log.txt
+run_m222.40_r0.5_rep1_log.txt
+run_m222.40_r0.5_rep2_log.txt
+run_m22.80_r0.5_rep1_log.txt
+run_m22.80_r0.5_rep2_log.txt
+run_m22.80_r0.5_rep3_log.txt
+run_m232.76_r0.5_rep1_log.txt
+run_m232.76_r0.5_rep2_log.txt
+run_m23.86_r0.5_rep1_log.txt
+run_m23.86_r0.5_rep2_log.txt
+run_m23.86_r0.5_rep3_log.txt
+run_m243.61_r0.5_rep1_log.txt
+run_m243.61_r0.5_rep2_log.txt
+run_m24.97_r0.5_rep1_log.txt
+run_m24.97_r0.5_rep2_log.txt
+run_m24.97_r0.5_rep3_log.txt
+run_m254.97_r0.5_rep1_log.txt
+run_m254.97_r0.5_rep2_log.txt
+run_m26.14_r0.5_rep1_log.txt
+run_m26.14_r0.5_rep2_log.txt
+run_m26.14_r0.5_rep3_log.txt
+run_m266.85_r0.5_rep1_log.txt
+run_m266.85_r0.5_rep2_log.txt
+run_m27.36_r0.5_rep1_log.txt
+run_m27.36_r0.5_rep2_log.txt
+run_m27.36_r0.5_rep3_log.txt
+run_m279.29_r0.5_rep1_log.txt
+run_m279.29_r0.5_rep2_log.txt
+run_m28.63_r0.5_rep1_log.txt
+run_m28.63_r0.5_rep2_log.txt
+run_m28.63_r0.5_rep3_log.txt
+run_m292.30_r0.5_rep1_log.txt
+run_m292.30_r0.5_rep2_log.txt
+run_m29.97_r0.5_rep1_log.txt
+run_m29.97_r0.5_rep2_log.txt
+run_m29.97_r0.5_rep3_log.txt
+run_m305.93_r0.5_rep1_log.txt
+run_m305.93_r0.5_rep2_log.txt
+run_m31.36_r0.5_rep1_log.txt
+run_m31.36_r0.5_rep2_log.txt
+run_m31.36_r0.5_rep3_log.txt
+run_m320.19_r0.5_rep1_log.txt
+run_m320.19_r0.5_rep2_log.txt
+run_m32.83_r0.5_rep1_log.txt
+run_m32.83_r0.5_rep2_log.txt
+run_m32.83_r0.5_rep3_log.txt
+run_m335.11_r0.5_rep1_log.txt
+run_m335.11_r0.5_rep2_log.txt
+run_m34.36_r0.5_rep1_log.txt
+run_m34.36_r0.5_rep2_log.txt
+run_m34.36_r0.5_rep3_log.txt
+run_m350.73_r0.5_rep1_log.txt
+run_m350.73_r0.5_rep2_log.txt
+run_m35.96_r0.5_rep1_log.txt
+run_m35.96_r0.5_rep2_log.txt
+run_m35.96_r0.5_rep3_log.txt
+run_m367.07_r0.5_rep1_log.txt
+run_m367.07_r0.5_rep2_log.txt
+run_m37.63_r0.5_rep1_log.txt
+run_m37.63_r0.5_rep2_log.txt
+run_m37.63_r0.5_rep3_log.txt
+run_m384.18_r0.5_rep1_log.txt
+run_m384.18_r0.5_rep2_log.txt
+run_m39.39_r0.5_rep1_log.txt
+run_m39.39_r0.5_rep2_log.txt
+run_m39.39_r0.5_rep3_log.txt
+run_m402.09_r0.5_rep1_log.txt
+run_m402.09_r0.5_rep2_log.txt
+run_m41.22_r0.5_rep1_log.txt
+run_m41.22_r0.5_rep2_log.txt
+run_m41.22_r0.5_rep3_log.txt
+run_m420.83_r0.5_rep1_log.txt
+run_m420.83_r0.5_rep2_log.txt
+run_m43.14_r0.5_rep1_log.txt
+run_m43.14_r0.5_rep2_log.txt
+run_m43.14_r0.5_rep3_log.txt
+run_m440.44_r0.5_rep1_log.txt
+run_m440.44_r0.5_rep2_log.txt
+run_m45.15_r0.5_rep1_log.txt
+run_m45.15_r0.5_rep2_log.txt
+run_m45.15_r0.5_rep3_log.txt
+run_m460.97_r0.5_rep1_log.txt
+run_m460.97_r0.5_rep2_log.txt
+run_m47.26_r0.5_rep1_log.txt
+run_m47.26_r0.5_rep2_log.txt
+run_m47.26_r0.5_rep3_log.txt
+run_m482.46_r0.5_rep1_log.txt
+run_m482.46_r0.5_rep2_log.txt
+run_m49.46_r0.5_rep1_log.txt
+run_m49.46_r0.5_rep2_log.txt
+run_m49.46_r0.5_rep3_log.txt
+run_m504.94_r0.5_rep1_log.txt
+run_m504.94_r0.5_rep2_log.txt
+run_m51.77_r0.5_rep1_log.txt
+run_m51.77_r0.5_rep2_log.txt
+run_m51.77_r0.5_rep3_log.txt
+run_m528.48_r0.5_rep1_log.txt
+run_m528.48_r0.5_rep2_log.txt
+run_m54.18_r0.5_rep1_log.txt
+run_m54.18_r0.5_rep2_log.txt
+run_m54.18_r0.5_rep3_log.txt
+run_m553.11_r0.5_rep1_log.txt
+run_m553.11_r0.5_rep2_log.txt
+run_m56.70_r0.5_rep1_log.txt
+run_m56.70_r0.5_rep2_log.txt
+run_m56.70_r0.5_rep3_log.txt
+run_m578.89_r0.5_rep1_log.txt
+run_m578.89_r0.5_rep2_log.txt
+run_m59.35_r0.5_rep1_log.txt
+run_m59.35_r0.5_rep2_log.txt
+run_m59.35_r0.5_rep3_log.txt
+run_m605.87_r0.5_rep1_log.txt
+run_m605.87_r0.5_rep2_log.txt
+run_m62.11_r0.5_rep1_log.txt
+run_m62.11_r0.5_rep2_log.txt
+run_m62.11_r0.5_rep3_log.txt
+run_m634.10_r0.5_rep1_log.txt
+run_m634.10_r0.5_rep2_log.txt
+run_m65.01_r0.5_rep1_log.txt
+run_m65.01_r0.5_rep2_log.txt
+run_m65.01_r0.5_rep3_log.txt
+run_m663.66_r0.5_rep1_log.txt
+run_m663.66_r0.5_rep2_log.txt
+run_m68.04_r0.5_rep1_log.txt
+run_m68.04_r0.5_rep2_log.txt
+run_m68.04_r0.5_rep3_log.txt
+run_m694.59_r0.5_rep1_log.txt
+run_m694.59_r0.5_rep2_log.txt
+run_m71.21_r0.5_rep1_log.txt
+run_m71.21_r0.5_rep2_log.txt
+run_m71.21_r0.5_rep3_log.txt
+run_m726.96_r0.5_rep1_log.txt
+run_m726.96_r0.5_rep2_log.txt
+run_m74.53_r0.5_rep1_log.txt
+run_m74.53_r0.5_rep2_log.txt
+run_m74.53_r0.5_rep3_log.txt
+run_m760.85_r0.5_rep1_log.txt
+run_m760.85_r0.5_rep2_log.txt
+run_m78.00_r0.5_rep1_log.txt
+run_m78.00_r0.5_rep2_log.txt
+run_m78.00_r0.5_rep3_log.txt
+run_m796.31_r0.5_rep1_log.txt
+run_m796.31_r0.5_rep2_log.txt
+run_m81.64_r0.5_rep1_log.txt
+run_m81.64_r0.5_rep2_log.txt
+run_m81.64_r0.5_rep3_log.txt
+run_m833.42_r0.5_rep1_log.txt
+run_m833.42_r0.5_rep2_log.txt
+run_m85.44_r0.5_rep1_log.txt
+run_m85.44_r0.5_rep2_log.txt
+run_m85.44_r0.5_rep3_log.txt
+run_m872.26_r0.5_rep1_log.txt
+run_m872.26_r0.5_rep2_log.txt
+run_m89.42_r0.5_rep1_log.txt
+run_m89.42_r0.5_rep2_log.txt
+run_m89.42_r0.5_rep3_log.txt
+run_m912.92_r0.5_rep1_log.txt
+run_m912.92_r0.5_rep2_log.txt
+run_m93.59_r0.5_rep1_log.txt
+run_m93.59_r0.5_rep2_log.txt
+run_m93.59_r0.5_rep3_log.txt
+run_m955.47_r0.5_rep1_log.txt
+run_m955.47_r0.5_rep2_log.txt
+run_m97.95_r0.5_rep1_log.txt
+run_m97.95_r0.5_rep2_log.txt
+--------------------- Multi run with 120 jobs. ---------------------
+job a0 : 1.9521 1.9521 +- 0.0037736 1081.0
+job b0 : 1.9513 1.9513 +- 0.0037525 1086.0
+job c0 : 1.9551 1.9551 +- 0.0037565 1071.0
+job d0 : 1.9457 1.9457 +- 0.0040169 1072.0
+job e0 : 1.949 1.949 +- 0.0038715 1074.0
+job f0 : 1.9482 1.9482 +- 0.0038542 1079.0
+job g0 : 1.9476 1.9476 +- 0.0038517 1075.0
+job h0 : 1.9568 1.9568 +- 0.0036166 1075.0
+job i0 : 1.9532 1.9532 +- 0.0037855 1074.0
+job j0 : 1.9526 1.9526 +- 0.003785 1074.0
+job k0 : 1.9575 1.9575 +- 0.0036248 1072.0
+job l0 : 1.9494 1.9494 +- 0.0038808 1088.0
+job m0 : 1.9525 1.9525 +- 0.0037672 1071.0
+job n0 : 1.9507 1.9507 +- 0.0038372 1073.0
+job o0 : 1.949 1.949 +- 0.003751 1076.0
+job p0 : 1.954 1.954 +- 0.0038267 1074.0
+job q0 : 1.954 1.954 +- 0.0037677 1082.0
+job r0 : 1.9497 1.9497 +- 0.003856 1067.0
+job s0 : 1.9524 1.9524 +- 0.0037774 1065.0
+job t0 : 1.949 1.949 +- 0.0038781 1074.0
+job u0 : 1.9514 1.9514 +- 0.0038039 1067.0
+job v0 : 1.9545 1.9545 +- 0.003796 1083.0
+job w0 : 1.9442 1.9442 +- 0.0039882 1080.0
+job x0 : 1.9516 1.9516 +- 0.0038353 1073.0
+job y0 : 1.9533 1.9533 +- 0.0037059 1068.0
+job z1 : 1.9496 1.9496 +- 0.0038113 1071.0
+job a1 : 1.9508 1.9508 +- 0.003793 1080.0
+job b1 : 1.9502 1.9502 +- 0.0038242 1084.0
+job c1 : 1.9541 1.9541 +- 0.0043601 1069.0
+job d1 : 1.9472 1.9472 +- 0.0038962 1077.0
+job e1 : 1.955 1.955 +- 0.0037477 1073.0
+job f1 : 1.9488 1.9488 +- 0.0043638 1069.0
+job g1 : 1.9471 1.9471 +- 0.0054617 1083.0
+job h1 : 1.9536 1.9536 +- 0.0037494 1084.0
+job i1 : 1.9508 1.9508 +- 0.0054068 1087.0
+job j1 : 1.9545 1.9545 +- 0.0045855 1076.0
+job k1 : 1.9483 1.9483 +- 0.0038473 1076.0
+job l1 : 1.9508 1.9508 +- 0.0037786 1080.0
+job m1 : 1.9479 1.9479 +- 0.003856 1072.0
+job n1 : 1.9547 1.9547 +- 0.0036718 1080.0
+job o1 : 1.9503 1.9503 +- 0.0038551 1083.0
+job p1 : 1.9483 1.9483 +- 0.0039314 1081.0
+job q1 : 1.9499 1.9499 +- 0.003803 1092.0
+job r1 : 1.9481 1.9481 +- 0.0038963 1075.0
+job s1 : 1.9512 1.9512 +- 0.0037897 1074.0
+job t1 : 1.9481 1.9481 +- 0.003896 1077.0
+job u1 : 1.9523 1.9523 +- 0.0037472 1075.0
+job v1 : 1.9539 1.9539 +- 0.0037357 1078.0
+job w1 : 1.9561 1.9561 +- 0.0037212 1069.0
+job x1 : 1.9528 1.9528 +- 0.0037449 1075.0
+job y1 : 1.9474 1.9474 +- 0.0049985 1080.0
+job z2 : 1.9547 1.9547 +- 0.0036452 1079.0
+job a2 : 1.9558 1.9558 +- 0.0036983 1073.0
+job b2 : 1.9502 1.9502 +- 0.0038051 1082.0
+job c2 : 1.9509 1.9509 +- 0.003765 1076.0
+job d2 : 1.949 1.949 +- 0.0038575 1072.0
+job e2 : 1.951 1.951 +- 0.0037941 1080.0
+job f2 : 1.9503 1.9503 +- 0.0064115 1076.0
+job g2 : 1.9513 1.9513 +- 0.0049653 1072.0
+job h2 : 1.9512 1.9512 +- 0.0038061 1069.0
+job i2 : 1.9469 1.9469 +- 0.0039474 1084.0
+job j2 : 1.9494 1.9494 +- 0.003849 1071.0
+job k2 : 1.9514 1.9514 +- 0.0040485 1077.0
+job l2 : 1.9491 1.9491 +- 0.0038639 1074.0
+job m2 : 1.9467 1.9467 +- 0.0038787 1076.0
+job n2 : 1.9494 1.9494 +- 0.0038829 1082.0
+job o2 : 1.9521 1.9521 +- 0.0053706 1088.0
+job p2 : 1.9498 1.9498 +- 0.003835 1079.0
+job q2 : 1.9503 1.9503 +- 0.0038439 1068.0
+job r2 : 1.9445 1.9445 +- 0.005593 1083.0
+job s2 : 1.954 1.954 +- 0.0037272 1072.0
+job t2 : 1.9535 1.9535 +- 0.0037359 1076.0
+job u2 : 1.9534 1.9534 +- 0.0037257 1070.0
+job v2 : 1.9531 1.9531 +- 0.0038266 1076.0
+job w2 : 1.9529 1.9529 +- 0.0044686 1088.0
+job x2 : 1.9512 1.9512 +- 0.0038159 1078.0
+job y2 : 1.9504 1.9504 +- 0.0040115 1077.0
+job z3 : 1.952 1.952 +- 0.0044476 1069.0
+job a3 : 1.9528 1.9528 +- 0.0037683 1081.0
+job b3 : 1.9541 1.9541 +- 0.0037432 1066.0
+job c3 : 1.9517 1.9517 +- 0.003793 1076.0
+job d3 : 1.9529 1.9529 +- 0.003776 1070.0
+job e3 : 1.9532 1.9532 +- 0.004491 1078.0
+job f3 : 1.9481 1.9481 +- 0.0038891 1082.0
+job g3 : 1.9488 1.9488 +- 0.0038624 1076.0
+job h3 : 1.9494 1.9494 +- 0.0037977 1082.0
+job i3 : 1.9438 1.9438 +- 0.0039777 1079.0
+job j3 : 1.9527 1.9527 +- 0.0041455 1076.0
+job k3 : 1.9498 1.9498 +- 0.0038239 1075.0
+job l3 : 1.949 1.949 +- 0.0037912 1071.0
+job m3 : 1.95 1.95 +- 0.0038451 1077.0
+job n3 : 1.9516 1.9516 +- 0.0038169 1081.0
+job o3 : 1.9493 1.9493 +- 0.0038761 1071.0
+job p3 : 1.9535 1.9535 +- 0.0037732 1078.0
+job q3 : 1.9497 1.9497 +- 0.0038559 1080.0
+job r3 : 1.9479 1.9479 +- 0.0038356 1068.0
+job s3 : 1.9511 1.9511 +- 0.00378 1080.0
+job t3 : 1.9509 1.9509 +- 0.00385 1071.0
+job u3 : 1.9533 1.9533 +- 0.003969 1080.0
+job v3 : 1.9546 1.9546 +- 0.0036495 1074.0
+job w3 : 1.9521 1.9521 +- 0.0037215 1078.0
+job x3 : 1.9553 1.9553 +- 0.0037787 1064.0
+job y3 : 1.9505 1.9505 +- 0.0039577 1079.0
+job z4 : 1.9481 1.9481 +- 0.0038089 1073.0
+job a4 : 1.9511 1.9511 +- 0.0037977 1078.0
+job b4 : 1.9514 1.9514 +- 0.0038109 1083.0
+job c4 : 1.951 1.951 +- 0.0037949 1069.0
+job d4 : 1.9529 1.9529 +- 0.0052496 1069.0
+job e4 : 1.9535 1.9535 +- 0.0037151 1072.0
+job f4 : 1.9508 1.9508 +- 0.0048465 1088.0
+job g4 : 1.9523 1.9523 +- 0.0037598 1070.0
+job h4 : 1.9532 1.9532 +- 0.0037731 1075.0
+job i4 : 1.9537 1.9537 +- 0.0068932 1076.0
+job j4 : 1.9546 1.9546 +- 0.0037124 1077.0
+job k4 : 1.952 1.952 +- 0.0038024 1078.0
+job l4 : 1.9506 1.9506 +- 0.0037585 1073.0
+job m4 : 1.9493 1.9493 +- 0.0038186 1081.0
+job n4 : 1.9482 1.9482 +- 0.0039167 1072.0
+job o4 : 1.9531 1.9531 +- 0.0037725 1078.0
+job p4 : 1.9511 1.9511 +- 0.0037894 1074.0

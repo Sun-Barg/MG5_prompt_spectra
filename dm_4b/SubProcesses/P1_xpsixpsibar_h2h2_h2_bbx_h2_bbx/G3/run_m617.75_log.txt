@@ -1,0 +1,375 @@
+ Process in group number            1
+ No PDF is used, alpha_s(MZ) from param_card is used
+ Value of alpha_s from param_card:   0.13000000000000003     
+ The default order of alpha_s running is fixed to            2
+ Define smin to   353.44000000000005     
+ *****************************************************
+ *               MadGraph/MadEvent                   *
+ *        --------------------------------           *
+ *          http://madgraph.hep.uiuc.edu             *
+ *          http://madgraph.phys.ucl.ac.be           *
+ *          http://madgraph.roma2.infn.it            *
+ *        --------------------------------           *
+ *                                                   *
+ *          PARAMETER AND COUPLING VALUES            *
+ *                                                   *
+ *****************************************************
+
+  External Params
+  ---------------------------------
+  
+ mdl_cabi =   0.22773599999999999     
+ aEWM1 =    127.90000000000001     
+ mdl_Gf =    1.1663700000000000E-005
+ aS =   0.13000000000000003     
+ mdl_ymdo =    5.0400000000000002E-003
+ mdl_ymup =    2.5500000000000002E-003
+ mdl_yms =   0.10100000000000001     
+ mdl_ymc =    1.2700000000000000     
+ mdl_ymb =    4.7000000000000002     
+ mdl_ymt =    172.00000000000000     
+ mdl_yme =    5.1099999999999995E-004
+ mdl_ymm =   0.10566000000000000     
+ mdl_ymtau =    1.7769999999999999     
+ mdl_vev =    246.22000000000000     
+ mdl_lam =   0.13000000000000000     
+ mdl_lam1 =    4.5000000000000000     
+ mdl_lam2 =   -5.4999999999999997E-003
+ mdl_lam3 =   -391.50999999999999     
+ mdl_lam4 =    2.2000000000000002     
+ mdl_gg =    5.6000000000000001E-002
+ mdl_vs =    276.20999999999998     
+ mdl_mpsi0 =    52.165900000000001     
+ mdl_sinxi =    1.0000000000000000     
+ mdl_theta =    1.8718300000000001     
+ mdl_gamma =    10.000000000000000     
+ mdl_MZ =    91.187600000000003     
+ mdl_Me =    5.1099999999999995E-004
+ mdl_MMU =   0.10566000000000000     
+ mdl_MTA =    1.7769999999999999     
+ mdl_MU =    2.5500000000000002E-003
+ mdl_MC =    1.2700000000000000     
+ mdl_MT =    172.00000000000000     
+ mdl_MD =    5.0400000000000002E-003
+ mdl_MS =   0.10100000000000001     
+ mdl_MB =    4.7000000000000002     
+ mdl_mh1 =    125.09999999999999     
+ mdl_mh2 =    308.87689999999998     
+ mdl_mpsi =    617.75379999999996     
+ mdl_WZ =    2.4115959999999999     
+ mdl_WW =    2.0025240000000002     
+ mdl_WT =    1.4668770000000000     
+ mdl_wh1 =    6.5432540000000001E-003
+ mdl_wh2 =    6.1033149999999998E-003
+  Internal Params
+  ---------------------------------
+  
+ mdl_sqrt__2 =    1.4142135623730951     
+ mdl_ye =    2.9350301777786193E-006
+ mdl_ym =    6.0687923401974353E-004
+ mdl_ytau =    1.0206553083977703E-002
+ mdl_yup =    1.4646432394002896E-005
+ mdl_yc =    7.2944977021112455E-003
+ mdl_yt =   0.98791622422294023     
+ mdl_ydo =    2.8948242849323368E-005
+ mdl_ys =    5.8011359678207552E-004
+ mdl_yb =    2.6995385196789651E-002
+ mdl_cos__cabi =   0.97418004031982097     
+ mdl_CKM1x1 =               (0.97418004031982097,0.0000000000000000)
+ mdl_sin__cabi =   0.22577256042856930     
+ mdl_CKM1x2 =               (0.22577256042856930,0.0000000000000000)
+ mdl_CKM1x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM2x1 =              (-0.22577256042856930,0.0000000000000000)
+ mdl_CKM2x2 =               (0.97418004031982097,0.0000000000000000)
+ mdl_CKM2x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x1 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x2 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x3 =                (1.0000000000000000,0.0000000000000000)
+ mdl_sin__theta =   0.95503050748175045     
+ mdl_sinth =   0.95503050748175045     
+ mdl_sinxi__exp__2 =    1.0000000000000000     
+ mdl_cosxi =    0.0000000000000000     
+ mdl_cos__theta =  -0.29650755433740655     
+ mdl_costh =  -0.29650755433740655     
+ mdl_vev__exp__2 =    60624.288399999998     
+ mdl_musSq =    1384.1077984718193     
+ mdl_muhsSq =    359.89731180000007     
+ mdl_muhSq =    15762.314984000001     
+ mdl_muH =    8704.4966894499994     
+ mdl_musq =    8704.4966894499994     
+ mdl_vs__exp__2 =    76291.964099999983     
+ mdl_mm =    25935.357974671813     
+ mdl_MZ__exp__2 =    8315.1783937600012     
+ mdl_MZ__exp__4 =    69142191.720053151     
+ mdl_yhs =    5.0061500318654549E-002
+ mdl_yhs__exp__2 =    2.5061538141546496E-003
+ mdl_tth =    2.5015087052767792E-002
+ mdl_tth__exp__2 =    6.2575458025755084E-004
+ mdl_CTH =   0.99968726947164066     
+ mdl_STH =    2.5007264071376826E-002
+ mdl_complexi =                (0.0000000000000000,1.0000000000000000)
+ mdl_gamma__exp__5 =    100000.00000000000     
+ mdl_CTH__exp__4 =   0.99874966456653169     
+ mdl_CTH__exp__3 =   0.99906210178548693     
+ mdl_CTH__exp__2 =   0.99937463674366467     
+ mdl_STH__exp__2 =    6.2536325633557428E-004
+ mdl_STH__exp__3 =    1.5638624091719823E-005
+ mdl_STH__exp__4 =    3.9107920237463319E-007
+ mdl_conjg__CKM1x1 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_conjg__CKM1x2 =              (0.22577256042856930,-0.0000000000000000)
+ mdl_conjg__CKM1x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM2x1 =             (-0.22577256042856930,-0.0000000000000000)
+ mdl_conjg__CKM2x2 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_conjg__CKM2x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x1 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x2 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x3 =               (1.0000000000000000,-0.0000000000000000)
+ mdl_aEW =    7.8186082877247844E-003
+ mdl_MW =    79.824359746197842     
+ mdl_sqrt__aEW =    8.8422894590285753E-002
+ mdl_ee =   0.31345100004952897     
+ mdl_MW__exp__2 =    6371.9284088904105     
+ mdl_sw2 =   0.23369913342182447     
+ mdl_cw =   0.87538612427783857     
+ mdl_sqrt__sw2 =   0.48342438232036300     
+ mdl_sw =   0.48342438232036300     
+ mdl_g1 =   0.35807170271074895     
+ mdl_gw =   0.64839716719502682     
+ mdl_ee__exp__2 =    9.8251529432049817E-002
+ mdl_sw__exp__2 =   0.23369913342182450     
+ mdl_cw__exp__2 =   0.76630086657817542     
+  Internal Params evaluated point by point
+  ----------------------------------------
+  
+ mdl_sqrt__aS =   0.36055512754639896     
+ mdl_G__exp__2 =    1.6336281798666927     
+  Couplings of effective_4b
+  ---------------------------------
+  
+        GC_10 =  -0.00000E+00  -0.00000E+00
+        GC_12 =   0.55982E-01   0.00000E+00
+        GC_13 =  -0.00000E+00  -0.00000E+00
+        GC_15 =   0.14004E-02   0.00000E+00
+        GC_57 =   0.00000E+00  -0.21616E+03
+        GC_59 =   0.00000E+00  -0.26265E+01
+        GC_62 =   0.00000E+00   0.47735E-03
+
+ Collider parameters:
+ --------------------
+
+ Running at e e   machine @    1235.7076835646460       GeV
+ PDF set = none   
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ Renormalization scale set on event-by-event basis
+ Factorization   scale set on event-by-event basis
+
+
+ getting user params
+Enter number of events and max and min iterations: 
+ Number of events and iterations         1000           5           3
+Enter desired fractional accuracy: 
+ Desired fractional accuracy:   0.10000000000000001     
+Enter 0 for fixed, 2 for adjustable grid: 
+Suppress amplitude (0 no, 1 yes)? 
+ Using suppressed amplitude.
+Exact helicity sum (0 yes, n = number/event)? 
+ Explicitly summing over helicities
+Enter Configuration Number: 
+Running Configuration Number:    3
+ Not subdividing B.W.
+ Attempting mappinvarients           1           6
+ Determine nb_t
+ T-channel found:            1
+ Completed mapping           6
+ about to integrate            8        1000           5           3           8           1
+ Using non-zero grid deformation.
+  8 dimensions   1000 events  8 invarients  5 iterations  1 config(s),  (0.99)
+ Using h-tuple random number sequence.
+ Error opening grid
+ Using Uniform Grid!          24
+ Using uniform alpha   1.0000000000000000     
+ Grid defined OK
+ Masses: 0.618E+03 0.618E+03 0.470E+01 0.470E+01 0.470E+01 0.470E+01
+ Set CM energy to       1235.71
+ Mapping Graph           3  to config           3
+ Determine nb_t
+ T-channel found:            1
+ Setting BW          -1           1   308.87689999999998     
+ Setting BW          -2           2   308.87689999999998     
+Setting grid   3    0.62443E-01   1
+ Got moffset           1
+Using random seed offsets     3 :      1
+  with seed                  492
+ Ranmar initialization seeds       30014       13042
+ 
+ ********************************************
+ * You are using the DiscreteSampler module *
+ *      part of the MG5_aMC framework       *
+ *         Author: Valentin Hirschi         *
+ ********************************************
+ 
+  Particle       3       4       5       6
+      Et >     0.0     0.0     0.0     0.0
+       E >     0.0     0.0     0.0     0.0
+     Eta <    -1.0    -1.0    -1.0    -1.0
+   xqcut:      0.0     0.0     0.0     0.0
+d R # 3  >    -0.0     0.0     0.0     0.0
+d R # 4  >    -0.0    -0.0     0.0     0.0
+d R # 5  >    -0.0    -0.0    -0.0     0.0
+s min # 3>     0.0    88.4    88.4     0.0
+s min # 4>     0.0     0.0    88.4     0.0
+s min # 5>     0.0     0.0     0.0     0.0
+xqcutij # 3>     0.0     0.0     0.0     0.0
+xqcutij # 4>     0.0     0.0     0.0     0.0
+xqcutij # 5>     0.0     0.0     0.0     0.0
+ No cut BW           -1           1
+ No cut BW           -2           2
+ alpha_s for scale    617.86594302851154       is    9.8690176472078645E-002
+ RESET CUMULATIVE VARIABLE
+ Iteration  1   Mean: 0.3637E-08 Abs mean: 0.3637E-08   Fluctuation:  0.309E-10   0.371E-08    96.3%
+  1    0.3637E-08 0.3637E-08 +- 0.3087E-10      0.27
+ Writing out events   7.5507492302400653E-013  0.26843051355854769     
+ Relative summed weights:
+  0.2559E+00  0.2765E+00
+  0.2497E+00  0.2178E+00
+ Relative number of events:
+  0.2557E+00  0.2765E+00
+  0.2498E+00  0.2180E+00
+ Events:
+         258         279
+         252         220
+ Iteration  2   Mean: 0.3638E-08 Abs mean: 0.3638E-08   Fluctuation:  0.198E-10   0.661E-08    97.5%
+  2    0.3638E-08 0.3638E-08 +- 0.1978E-10      0.24
+ Relative summed weights:
+  0.2366E+00  0.2501E+00
+  0.2530E+00  0.2603E+00
+ Relative number of events:
+  0.2380E+00  0.2495E+00
+  0.2525E+00  0.2600E+00
+ Events:
+         476         499
+         505         520
+ Iteration  3   Mean: 0.3614E-08 Abs mean: 0.3614E-08   Fluctuation:  0.156E-10   0.518E-08    97.0%
+  3    0.3614E-08 0.3614E-08 +- 0.1557E-10      0.27
+ Relative summed weights:
+  0.2491E+00  0.2464E+00
+  0.2545E+00  0.2500E+00
+ Relative number of events:
+  0.2480E+00  0.2485E+00
+  0.2537E+00  0.2497E+00
+ Events:
+         992         994
+        1015         999
+ Accuracy:    0.002   0.100   0.003   0.546
+ Finished due to accuracy    2.3193508663294266E-003  0.10000000000000001     
+
+ -------------------------------------------------------------------------------
+ Accumulated results:   Integral =  0.3625E-08
+                        Std dev  =  0.1137E-10
+                       Cross sec =  0.3625E-08
+             Chi**2 per DoF.     =      0.5463
+ -------------------------------------------------------------------------------
+ Found          389  events.
+ Wrote          386  events.
+ Actual xsec    3.6248462847632334E-009
+ Correct abs xsec    3.6248462847632334E-009
+ Event xsec    3.6248462847632107E-009
+ Events wgts > 1:            0
+ % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+-------------------------------------------------
+---------------------------
+ Results Last   3 iters: Integral =   0.3625E-08
+                     Abs integral =   0.3625E-08
+                          Std dev =   0.1137E-10
+                  Chi**2 per DoF. =      0.5459
+-------------------------------------------------
+---------------------------
+ Status  0.10000000000000001                4           5
+
+ls status:
+events.lhe
+ftn26
+input_app.txt
+input_sg.txt
+moffset.dat
+multijob.dat
+results.dat
+run1_app.log
+run_m138.04_log.txt
+run_m145.63_log.txt
+run_m153.64_log.txt
+run_m162.09_log.txt
+run_m171.00_log.txt
+run_m180.40_log.txt
+run_m190.32_log.txt
+run_m19.06_log.txt
+run_m200.78_log.txt
+run_m20.10_log.txt
+run_m211.82_log.txt
+run_m21.21_log.txt
+run_m223.46_log.txt
+run_m22.38_log.txt
+run_m235.75_log.txt
+run_m23.61_log.txt
+run_m248.71_log.txt
+run_m24.90_log.txt
+run_m262.38_log.txt
+run_m26.27_log.txt
+run_m276.81_log.txt
+run_m27.72_log.txt
+run_m292.02_log.txt
+run_m29.24_log.txt
+run_m308.08_log.txt
+run_m30.85_log.txt
+run_m325.01_log.txt
+run_m32.54_log.txt
+run_m342.88_log.txt
+run_m34.33_log.txt
+run_m361.73_log.txt
+run_m36.22_log.txt
+run_m381.62_log.txt
+run_m38.21_log.txt
+run_m402.60_log.txt
+run_m40.31_log.txt
+run_m424.73_log.txt
+run_m42.53_log.txt
+run_m448.08_log.txt
+run_m44.87_log.txt
+run_m472.72_log.txt
+run_m47.33_log.txt
+run_m498.71_log.txt
+run_m49.94_log.txt
+run_m526.12_log.txt
+run_m52.68_log.txt
+run_m555.05_log.txt
+run_m55.58_log.txt
+run_m585.56_log.txt
+run_m58.63_log.txt
+run_m61.86_log.txt
+run_m65.26_log.txt
+run_m68.84_log.txt
+run_m72.63_log.txt
+run_m76.62_log.txt
+run_m80.83_log.txt
+run_m85.28_log.txt
+--------------------- Multi run with 19 jobs. ---------------------
+job a0 : 3.6235e-09 3.6235e-09 +- 7.8496e-12 1019.0
+job b0 : 3.6207e-09 3.6207e-09 +- 7.4062e-12 1013.0
+job c0 : 3.6212e-09 3.6212e-09 +- 7.4227e-12 1010.0
+job d0 : 3.6195e-09 3.6195e-09 +- 8.0069e-12 1015.0
+job e0 : 3.6223e-09 3.6223e-09 +- 7.8886e-12 1006.0
+job f0 : 3.6098e-09 3.6098e-09 +- 8.3246e-12 1011.0
+job g0 : 3.6183e-09 3.6183e-09 +- 8.3785e-12 1018.0
+job h0 : 3.6123e-09 3.6123e-09 +- 7.4662e-12 993.0
+job i0 : 3.62e-09 3.62e-09 +- 7.5251e-12 999.0
+job j0 : 3.6117e-09 3.6117e-09 +- 8.0319e-12 1003.0
+job k0 : 3.6176e-09 3.6176e-09 +- 8.0256e-12 1010.0
+job l0 : 3.6172e-09 3.6172e-09 +- 8.092e-12 1012.0
+job m0 : 3.6138e-09 3.6138e-09 +- 7.6914e-12 1012.0
+job n0 : 3.6126e-09 3.6126e-09 +- 8.048e-12 1013.0
+job o0 : 3.6096e-09 3.6096e-09 +- 7.7177e-12 1004.0
+job p0 : 3.6224e-09 3.6224e-09 +- 7.8335e-12 1014.0
+job q0 : 3.6138e-09 3.6138e-09 +- 7.555e-12 1004.0
+job r0 : 3.6282e-09 3.6282e-09 +- 7.5478e-12 999.0
+job s0 : 3.615e-09 3.615e-09 +- 7.9897e-12 1012.0

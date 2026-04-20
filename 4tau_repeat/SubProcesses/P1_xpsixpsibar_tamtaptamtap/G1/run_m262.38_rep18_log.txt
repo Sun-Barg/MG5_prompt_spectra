@@ -1,0 +1,1579 @@
+ Process in group number            1
+ No PDF is used, alpha_s(MZ) from param_card is used
+ Value of alpha_s from param_card:   0.13000000000000003     
+ The default order of alpha_s running is fixed to            2
+ Define smin to   900.00000000000000     
+ *****************************************************
+ *               MadGraph/MadEvent                   *
+ *        --------------------------------           *
+ *          http://madgraph.hep.uiuc.edu             *
+ *          http://madgraph.phys.ucl.ac.be           *
+ *          http://madgraph.roma2.infn.it            *
+ *        --------------------------------           *
+ *                                                   *
+ *          PARAMETER AND COUPLING VALUES            *
+ *                                                   *
+ *****************************************************
+
+  External Params
+  ---------------------------------
+  
+ mdl_cabi =   0.22773599999999999     
+ aEWM1 =    127.90000000000001     
+ mdl_Gf =    1.1663700000000000E-005
+ aS =   0.13000000000000003     
+ mdl_ymdo =    5.0400000000000002E-003
+ mdl_ymup =    2.5500000000000002E-003
+ mdl_yms =   0.10100000000000001     
+ mdl_ymc =    1.2700000000000000     
+ mdl_ymb =    4.7000000000000002     
+ mdl_ymt =    172.00000000000000     
+ mdl_yme =    5.1099999999999995E-004
+ mdl_ymm =   0.10566000000000000     
+ mdl_ymtau =    1.7769999999999999     
+ mdl_vev =    246.22000000000000     
+ mdl_lam =   0.13000000000000000     
+ mdl_lam1 =    4.5000000000000000     
+ mdl_lam2 =   -5.4999999999999997E-003
+ mdl_lam3 =   -391.50999999999999     
+ mdl_lam4 =    2.2000000000000002     
+ mdl_gg =    5.6000000000000001E-002
+ mdl_vs =    276.20999999999998     
+ mdl_mpsi0 =    52.165900000000001     
+ mdl_sinxi =    1.0000000000000000     
+ mdl_theta =    1.8718300000000001     
+ mdl_gamma =    10.000000000000000     
+ mdl_MZ =    91.187600000000003     
+ mdl_Me =    5.1099999999999995E-004
+ mdl_MMU =   0.10566000000000000     
+ mdl_MTA =    1.7769999999999999     
+ mdl_MU =    2.5500000000000002E-003
+ mdl_MC =    1.2700000000000000     
+ mdl_MT =    172.00000000000000     
+ mdl_MD =    5.0400000000000002E-003
+ mdl_MS =   0.10100000000000001     
+ mdl_MB =    4.7000000000000002     
+ mdl_mh1 =    125.09999999999999     
+ mdl_mh2 =    262.38069999999999     
+ mdl_mpsi =    262.38069999999999     
+ mdl_WZ =    2.4115959999999999     
+ mdl_WW =    2.0025240000000002     
+ mdl_WT =    1.4668770000000000     
+ mdl_wh1 =    6.5432540000000001E-003
+ mdl_wh2 =    3.2124739999999999E-003
+  Internal Params
+  ---------------------------------
+  
+ mdl_sqrt__2 =    1.4142135623730951     
+ mdl_ye =    2.9350301777786193E-006
+ mdl_ym =    6.0687923401974353E-004
+ mdl_ytau =    1.0206553083977703E-002
+ mdl_yup =    1.4646432394002896E-005
+ mdl_yc =    7.2944977021112455E-003
+ mdl_yt =   0.98791622422294023     
+ mdl_ydo =    2.8948242849323368E-005
+ mdl_ys =    5.8011359678207552E-004
+ mdl_yb =    2.6995385196789651E-002
+ mdl_cos__cabi =   0.97418004031982097     
+ mdl_CKM1x1 =               (0.97418004031982097,0.0000000000000000)
+ mdl_sin__cabi =   0.22577256042856930     
+ mdl_CKM1x2 =               (0.22577256042856930,0.0000000000000000)
+ mdl_CKM1x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM2x1 =              (-0.22577256042856930,0.0000000000000000)
+ mdl_CKM2x2 =               (0.97418004031982097,0.0000000000000000)
+ mdl_CKM2x3 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x1 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x2 =                (0.0000000000000000,0.0000000000000000)
+ mdl_CKM3x3 =                (1.0000000000000000,0.0000000000000000)
+ mdl_sin__theta =   0.95503050748175045     
+ mdl_sinth =   0.95503050748175045     
+ mdl_sinxi__exp__2 =    1.0000000000000000     
+ mdl_cosxi =    0.0000000000000000     
+ mdl_cos__theta =  -0.29650755433740655     
+ mdl_costh =  -0.29650755433740655     
+ mdl_vev__exp__2 =    60624.288399999998     
+ mdl_musSq =    1384.1077984718193     
+ mdl_muhsSq =    359.89731180000007     
+ mdl_muhSq =    15762.314984000001     
+ mdl_muH =    8704.4966894499994     
+ mdl_musq =    8704.4966894499994     
+ mdl_vs__exp__2 =    76291.964099999983     
+ mdl_mm =    25935.357974671813     
+ mdl_MZ__exp__2 =    8315.1783937600012     
+ mdl_MZ__exp__4 =    69142191.720053151     
+ mdl_yhs =    5.0061500318654549E-002
+ mdl_yhs__exp__2 =    2.5061538141546496E-003
+ mdl_tth =    2.5015087052767792E-002
+ mdl_tth__exp__2 =    6.2575458025755084E-004
+ mdl_CTH =   0.99968726947164066     
+ mdl_STH =    2.5007264071376826E-002
+ mdl_complexi =                (0.0000000000000000,1.0000000000000000)
+ mdl_gamma__exp__5 =    100000.00000000000     
+ mdl_CTH__exp__4 =   0.99874966456653169     
+ mdl_CTH__exp__3 =   0.99906210178548693     
+ mdl_CTH__exp__2 =   0.99937463674366467     
+ mdl_STH__exp__2 =    6.2536325633557428E-004
+ mdl_STH__exp__3 =    1.5638624091719823E-005
+ mdl_STH__exp__4 =    3.9107920237463319E-007
+ mdl_conjg__CKM1x1 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_conjg__CKM1x2 =              (0.22577256042856930,-0.0000000000000000)
+ mdl_conjg__CKM1x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM2x1 =             (-0.22577256042856930,-0.0000000000000000)
+ mdl_conjg__CKM2x2 =              (0.97418004031982097,-0.0000000000000000)
+ mdl_conjg__CKM2x3 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x1 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x2 =               (0.0000000000000000,-0.0000000000000000)
+ mdl_conjg__CKM3x3 =               (1.0000000000000000,-0.0000000000000000)
+ mdl_aEW =    7.8186082877247844E-003
+ mdl_MW =    79.824359746197842     
+ mdl_sqrt__aEW =    8.8422894590285753E-002
+ mdl_ee =   0.31345100004952897     
+ mdl_MW__exp__2 =    6371.9284088904105     
+ mdl_sw2 =   0.23369913342182447     
+ mdl_cw =   0.87538612427783857     
+ mdl_sqrt__sw2 =   0.48342438232036300     
+ mdl_sw =   0.48342438232036300     
+ mdl_g1 =   0.35807170271074895     
+ mdl_gw =   0.64839716719502682     
+ mdl_ee__exp__2 =    9.8251529432049817E-002
+ mdl_sw__exp__2 =   0.23369913342182450     
+ mdl_cw__exp__2 =   0.76630086657817542     
+  Internal Params evaluated point by point
+  ----------------------------------------
+  
+ mdl_sqrt__aS =   0.36055512754639896     
+ mdl_G__exp__2 =    1.6336281798666927     
+  Couplings of effective_4tau
+  ---------------------------------
+  
+         GC_9 =  -0.00000E+00  -0.20000E-04
+
+ Collider parameters:
+ --------------------
+
+ Running at e e   machine @    530.00893211364837       GeV
+ PDF set = none   
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ Renormalization scale set on event-by-event basis
+ Factorization   scale set on event-by-event basis
+
+
+ getting user params
+Enter number of events and max and min iterations: 
+ Number of events and iterations         1000           5           3
+Enter desired fractional accuracy: 
+ Desired fractional accuracy:   0.10000000000000001     
+Enter 0 for fixed, 2 for adjustable grid: 
+Suppress amplitude (0 no, 1 yes)? 
+ Using suppressed amplitude.
+Exact helicity sum (0 yes, n = number/event)? 
+ Explicitly summing over helicities
+Enter Configuration Number: 
+Running Configuration Number:    1
+ Not subdividing B.W.
+ Attempting mappinvarients           1           6
+ Determine nb_t
+ T-channel found:            0
+ Completed mapping           6
+ about to integrate            8        1000           5           3           8           1
+ Using non-zero grid deformation.
+  8 dimensions   1000 events  8 invarients  5 iterations  1 config(s),  (0.99)
+ Using h-tuple random number sequence.
+ Error opening grid
+ Using Uniform Grid!          24
+ Using uniform alpha   1.0000000000000000     
+ Grid defined OK
+ Masses: 0.262E+03 0.262E+03 0.178E+01 0.178E+01 0.178E+01 0.178E+01
+ Set CM energy to        530.01
+ Mapping Graph           1  to config           1
+ Determine nb_t
+ T-channel found:            0
+Setting grid   1    0.45566E-04   1
+Setting grid   2    0.10207E-03   1
+Using random seed offsets     1 :      1
+  with seed             84914569
+ Ranmar initialization seeds        4663       17117
+ 
+ ********************************************
+ * You are using the DiscreteSampler module *
+ *      part of the MG5_aMC framework       *
+ *         Author: Valentin Hirschi         *
+ ********************************************
+ 
+  Particle       3       4       5       6
+      Et >    10.0    10.0    10.0    10.0
+       E >     0.0     0.0     0.0     0.0
+     Eta <     2.5     2.5     2.5     2.5
+   xqcut:      0.0     0.0     0.0     0.0
+d R # 3  >    -0.0     0.4     0.4     0.4
+d R # 4  >    -0.0    -0.0     0.4     0.4
+d R # 5  >    -0.0    -0.0    -0.0     0.4
+s min # 3>     0.0    12.6    12.6     0.0
+s min # 4>     0.0     0.0    12.6     0.0
+s min # 5>     0.0     0.0     0.0     0.0
+xqcutij # 3>     0.0     0.0     0.0     0.0
+xqcutij # 4>     0.0     0.0     0.0     0.0
+xqcutij # 5>     0.0     0.0     0.0     0.0
+ alpha_s for scale    530.00893211364837       is   0.10062299446822021     
+ RESET CUMULATIVE VARIABLE
+ Iteration  1   Mean: 0.1059E+12 Abs mean: 0.1059E+12   Fluctuation:  0.514E+10   0.604E+12    43.6%
+  1    0.1059E+12 0.1059E+12 +- 0.5136E+10      1.53
+ Writing out events   48585320.105883054        1.5338105371225783     
+ Relative summed weights:
+  0.1000E+01  0.0000E+00
+ Relative number of events:
+  0.1000E+01  0.0000E+00
+ Events:
+        1009           0
+ Iteration  2   Mean: 0.1013E+12 Abs mean: 0.1013E+12   Fluctuation:  0.246E+10   0.407E+12    69.3%
+  2    0.1013E+12 0.1013E+12 +- 0.2462E+10      1.09
+ Relative summed weights:
+  0.1000E+01  0.0000E+00
+ Relative number of events:
+  0.1000E+01  0.0000E+00
+ Events:
+        2000           0
+ Iteration  3   Mean: 0.9695E+11 Abs mean: 0.9695E+11   Fluctuation:  0.137E+10   0.303E+12    76.6%
+  3    0.9695E+11 0.9695E+11 +- 0.1369E+10      0.89
+ Relative summed weights:
+  0.1000E+01  0.0000E+00
+ Relative number of events:
+  0.1000E+01  0.0000E+00
+ Events:
+        4000           0
+ Accuracy:    0.019   0.100   0.012   2.524
+ Finished due to accuracy    1.8810669124215484E-002  0.10000000000000001     
+
+ -------------------------------------------------------------------------------
+ Accumulated results:   Integral =  0.9852E+11
+                        Std dev  =  0.1167E+10
+                       Cross sec =  0.9852E+11
+             Chi**2 per DoF.     =      2.5239
+ -------------------------------------------------------------------------------
+ Found          463  events.
+ Wrote          461  events.
+ Actual xsec    98524733930.413193     
+ Correct abs xsec    98524733930.413193     
+ Event xsec    98524733930.413544     
+ Events wgts > 1:            0
+ % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+-------------------------------------------------
+---------------------------
+ Results Last   3 iters: Integral =   0.9852E+11
+                     Abs integral =   0.9852E+11
+                          Std dev =   0.1167E+10
+                  Chi**2 per DoF. =      2.3472
+-------------------------------------------------
+---------------------------
+ Status  0.10000000000000001                4           5
+
+ls status:
+events.lhe
+ftn26
+grid_information
+input_app.txt
+multijob.dat
+results.dat
+run1_app.log
+run_m1000.00_rep10_log.txt
+run_m1000.00_rep11_log.txt
+run_m1000.00_rep12_log.txt
+run_m1000.00_rep13_log.txt
+run_m1000.00_rep14_log.txt
+run_m1000.00_rep15_log.txt
+run_m1000.00_rep16_log.txt
+run_m1000.00_rep17_log.txt
+run_m1000.00_rep1_log.txt
+run_m1000.00_rep2_log.txt
+run_m1000.00_rep3_log.txt
+run_m1000.00_rep4_log.txt
+run_m1000.00_rep5_log.txt
+run_m1000.00_rep6_log.txt
+run_m1000.00_rep7_log.txt
+run_m1000.00_rep8_log.txt
+run_m1000.00_rep9_log.txt
+run_m100.13_rep10_log.txt
+run_m100.13_rep11_log.txt
+run_m100.13_rep12_log.txt
+run_m100.13_rep13_log.txt
+run_m100.13_rep14_log.txt
+run_m100.13_rep15_log.txt
+run_m100.13_rep16_log.txt
+run_m100.13_rep17_log.txt
+run_m100.13_rep18_log.txt
+run_m100.13_rep1_log.txt
+run_m100.13_rep2_log.txt
+run_m100.13_rep3_log.txt
+run_m100.13_rep4_log.txt
+run_m100.13_rep5_log.txt
+run_m100.13_rep6_log.txt
+run_m100.13_rep7_log.txt
+run_m100.13_rep8_log.txt
+run_m100.13_rep9_log.txt
+run_m105.63_rep10_log.txt
+run_m105.63_rep11_log.txt
+run_m105.63_rep12_log.txt
+run_m105.63_rep13_log.txt
+run_m105.63_rep14_log.txt
+run_m105.63_rep15_log.txt
+run_m105.63_rep16_log.txt
+run_m105.63_rep17_log.txt
+run_m105.63_rep18_log.txt
+run_m105.63_rep1_log.txt
+run_m105.63_rep2_log.txt
+run_m105.63_rep3_log.txt
+run_m105.63_rep4_log.txt
+run_m105.63_rep5_log.txt
+run_m105.63_rep6_log.txt
+run_m105.63_rep7_log.txt
+run_m105.63_rep8_log.txt
+run_m105.63_rep9_log.txt
+run_m111.44_rep10_log.txt
+run_m111.44_rep11_log.txt
+run_m111.44_rep12_log.txt
+run_m111.44_rep13_log.txt
+run_m111.44_rep14_log.txt
+run_m111.44_rep15_log.txt
+run_m111.44_rep16_log.txt
+run_m111.44_rep17_log.txt
+run_m111.44_rep18_log.txt
+run_m111.44_rep1_log.txt
+run_m111.44_rep2_log.txt
+run_m111.44_rep3_log.txt
+run_m111.44_rep4_log.txt
+run_m111.44_rep5_log.txt
+run_m111.44_rep6_log.txt
+run_m111.44_rep7_log.txt
+run_m111.44_rep8_log.txt
+run_m111.44_rep9_log.txt
+run_m117.57_rep10_log.txt
+run_m117.57_rep11_log.txt
+run_m117.57_rep12_log.txt
+run_m117.57_rep13_log.txt
+run_m117.57_rep14_log.txt
+run_m117.57_rep15_log.txt
+run_m117.57_rep16_log.txt
+run_m117.57_rep17_log.txt
+run_m117.57_rep18_log.txt
+run_m117.57_rep1_log.txt
+run_m117.57_rep2_log.txt
+run_m117.57_rep3_log.txt
+run_m117.57_rep4_log.txt
+run_m117.57_rep5_log.txt
+run_m117.57_rep6_log.txt
+run_m117.57_rep7_log.txt
+run_m117.57_rep8_log.txt
+run_m117.57_rep9_log.txt
+run_m124.03_rep10_log.txt
+run_m124.03_rep11_log.txt
+run_m124.03_rep12_log.txt
+run_m124.03_rep13_log.txt
+run_m124.03_rep14_log.txt
+run_m124.03_rep15_log.txt
+run_m124.03_rep16_log.txt
+run_m124.03_rep17_log.txt
+run_m124.03_rep18_log.txt
+run_m124.03_rep1_log.txt
+run_m124.03_rep2_log.txt
+run_m124.03_rep3_log.txt
+run_m124.03_rep4_log.txt
+run_m124.03_rep5_log.txt
+run_m124.03_rep6_log.txt
+run_m124.03_rep7_log.txt
+run_m124.03_rep8_log.txt
+run_m124.03_rep9_log.txt
+run_m130.85_rep10_log.txt
+run_m130.85_rep11_log.txt
+run_m130.85_rep12_log.txt
+run_m130.85_rep13_log.txt
+run_m130.85_rep14_log.txt
+run_m130.85_rep15_log.txt
+run_m130.85_rep16_log.txt
+run_m130.85_rep17_log.txt
+run_m130.85_rep18_log.txt
+run_m130.85_rep1_log.txt
+run_m130.85_rep2_log.txt
+run_m130.85_rep3_log.txt
+run_m130.85_rep4_log.txt
+run_m130.85_rep5_log.txt
+run_m130.85_rep6_log.txt
+run_m130.85_rep7_log.txt
+run_m130.85_rep8_log.txt
+run_m130.85_rep9_log.txt
+run_m138.04_rep10_log.txt
+run_m138.04_rep11_log.txt
+run_m138.04_rep12_log.txt
+run_m138.04_rep13_log.txt
+run_m138.04_rep14_log.txt
+run_m138.04_rep15_log.txt
+run_m138.04_rep16_log.txt
+run_m138.04_rep17_log.txt
+run_m138.04_rep18_log.txt
+run_m138.04_rep1_log.txt
+run_m138.04_rep2_log.txt
+run_m138.04_rep3_log.txt
+run_m138.04_rep4_log.txt
+run_m138.04_rep5_log.txt
+run_m138.04_rep6_log.txt
+run_m138.04_rep7_log.txt
+run_m138.04_rep8_log.txt
+run_m138.04_rep9_log.txt
+run_m145.63_rep10_log.txt
+run_m145.63_rep11_log.txt
+run_m145.63_rep12_log.txt
+run_m145.63_rep13_log.txt
+run_m145.63_rep14_log.txt
+run_m145.63_rep15_log.txt
+run_m145.63_rep16_log.txt
+run_m145.63_rep17_log.txt
+run_m145.63_rep18_log.txt
+run_m145.63_rep1_log.txt
+run_m145.63_rep2_log.txt
+run_m145.63_rep3_log.txt
+run_m145.63_rep4_log.txt
+run_m145.63_rep5_log.txt
+run_m145.63_rep6_log.txt
+run_m145.63_rep7_log.txt
+run_m145.63_rep8_log.txt
+run_m145.63_rep9_log.txt
+run_m153.64_rep10_log.txt
+run_m153.64_rep11_log.txt
+run_m153.64_rep12_log.txt
+run_m153.64_rep13_log.txt
+run_m153.64_rep14_log.txt
+run_m153.64_rep15_log.txt
+run_m153.64_rep16_log.txt
+run_m153.64_rep17_log.txt
+run_m153.64_rep18_log.txt
+run_m153.64_rep1_log.txt
+run_m153.64_rep2_log.txt
+run_m153.64_rep3_log.txt
+run_m153.64_rep4_log.txt
+run_m153.64_rep5_log.txt
+run_m153.64_rep6_log.txt
+run_m153.64_rep7_log.txt
+run_m153.64_rep8_log.txt
+run_m153.64_rep9_log.txt
+run_m162.09_rep10_log.txt
+run_m162.09_rep11_log.txt
+run_m162.09_rep12_log.txt
+run_m162.09_rep13_log.txt
+run_m162.09_rep14_log.txt
+run_m162.09_rep15_log.txt
+run_m162.09_rep16_log.txt
+run_m162.09_rep17_log.txt
+run_m162.09_rep18_log.txt
+run_m162.09_rep1_log.txt
+run_m162.09_rep2_log.txt
+run_m162.09_rep3_log.txt
+run_m162.09_rep4_log.txt
+run_m162.09_rep5_log.txt
+run_m162.09_rep6_log.txt
+run_m162.09_rep7_log.txt
+run_m162.09_rep8_log.txt
+run_m162.09_rep9_log.txt
+run_m171.00_rep10_log.txt
+run_m171.00_rep11_log.txt
+run_m171.00_rep12_log.txt
+run_m171.00_rep13_log.txt
+run_m171.00_rep14_log.txt
+run_m171.00_rep15_log.txt
+run_m171.00_rep16_log.txt
+run_m171.00_rep17_log.txt
+run_m171.00_rep18_log.txt
+run_m171.00_rep1_log.txt
+run_m171.00_rep2_log.txt
+run_m171.00_rep3_log.txt
+run_m171.00_rep4_log.txt
+run_m171.00_rep5_log.txt
+run_m171.00_rep6_log.txt
+run_m171.00_rep7_log.txt
+run_m171.00_rep8_log.txt
+run_m171.00_rep9_log.txt
+run_m180.40_rep10_log.txt
+run_m180.40_rep11_log.txt
+run_m180.40_rep12_log.txt
+run_m180.40_rep13_log.txt
+run_m180.40_rep14_log.txt
+run_m180.40_rep15_log.txt
+run_m180.40_rep16_log.txt
+run_m180.40_rep17_log.txt
+run_m180.40_rep18_log.txt
+run_m180.40_rep1_log.txt
+run_m180.40_rep2_log.txt
+run_m180.40_rep3_log.txt
+run_m180.40_rep4_log.txt
+run_m180.40_rep5_log.txt
+run_m180.40_rep6_log.txt
+run_m180.40_rep7_log.txt
+run_m180.40_rep8_log.txt
+run_m180.40_rep9_log.txt
+run_m190.32_rep10_log.txt
+run_m190.32_rep11_log.txt
+run_m190.32_rep12_log.txt
+run_m190.32_rep13_log.txt
+run_m190.32_rep14_log.txt
+run_m190.32_rep15_log.txt
+run_m190.32_rep16_log.txt
+run_m190.32_rep17_log.txt
+run_m190.32_rep18_log.txt
+run_m190.32_rep1_log.txt
+run_m190.32_rep2_log.txt
+run_m190.32_rep3_log.txt
+run_m190.32_rep4_log.txt
+run_m190.32_rep5_log.txt
+run_m190.32_rep6_log.txt
+run_m190.32_rep7_log.txt
+run_m190.32_rep8_log.txt
+run_m190.32_rep9_log.txt
+run_m200.78_rep10_log.txt
+run_m200.78_rep11_log.txt
+run_m200.78_rep12_log.txt
+run_m200.78_rep13_log.txt
+run_m200.78_rep14_log.txt
+run_m200.78_rep15_log.txt
+run_m200.78_rep16_log.txt
+run_m200.78_rep17_log.txt
+run_m200.78_rep18_log.txt
+run_m200.78_rep1_log.txt
+run_m200.78_rep2_log.txt
+run_m200.78_rep3_log.txt
+run_m200.78_rep4_log.txt
+run_m200.78_rep5_log.txt
+run_m200.78_rep6_log.txt
+run_m200.78_rep7_log.txt
+run_m200.78_rep8_log.txt
+run_m200.78_rep9_log.txt
+run_m211.82_rep10_log.txt
+run_m211.82_rep11_log.txt
+run_m211.82_rep12_log.txt
+run_m211.82_rep13_log.txt
+run_m211.82_rep14_log.txt
+run_m211.82_rep15_log.txt
+run_m211.82_rep16_log.txt
+run_m211.82_rep17_log.txt
+run_m211.82_rep18_log.txt
+run_m211.82_rep1_log.txt
+run_m211.82_rep2_log.txt
+run_m211.82_rep3_log.txt
+run_m211.82_rep4_log.txt
+run_m211.82_rep5_log.txt
+run_m211.82_rep6_log.txt
+run_m211.82_rep7_log.txt
+run_m211.82_rep8_log.txt
+run_m211.82_rep9_log.txt
+run_m21.21_rep10_log.txt
+run_m21.21_rep11_log.txt
+run_m21.21_rep12_log.txt
+run_m21.21_rep13_log.txt
+run_m21.21_rep14_log.txt
+run_m21.21_rep15_log.txt
+run_m21.21_rep16_log.txt
+run_m21.21_rep17_log.txt
+run_m21.21_rep18_log.txt
+run_m21.21_rep1_log.txt
+run_m21.21_rep2_log.txt
+run_m21.21_rep3_log.txt
+run_m21.21_rep4_log.txt
+run_m21.21_rep5_log.txt
+run_m21.21_rep6_log.txt
+run_m21.21_rep7_log.txt
+run_m21.21_rep8_log.txt
+run_m21.21_rep9_log.txt
+run_m223.46_rep10_log.txt
+run_m223.46_rep11_log.txt
+run_m223.46_rep12_log.txt
+run_m223.46_rep13_log.txt
+run_m223.46_rep14_log.txt
+run_m223.46_rep15_log.txt
+run_m223.46_rep16_log.txt
+run_m223.46_rep17_log.txt
+run_m223.46_rep18_log.txt
+run_m223.46_rep1_log.txt
+run_m223.46_rep2_log.txt
+run_m223.46_rep3_log.txt
+run_m223.46_rep4_log.txt
+run_m223.46_rep5_log.txt
+run_m223.46_rep6_log.txt
+run_m223.46_rep7_log.txt
+run_m223.46_rep8_log.txt
+run_m223.46_rep9_log.txt
+run_m22.38_rep10_log.txt
+run_m22.38_rep11_log.txt
+run_m22.38_rep12_log.txt
+run_m22.38_rep13_log.txt
+run_m22.38_rep14_log.txt
+run_m22.38_rep15_log.txt
+run_m22.38_rep16_log.txt
+run_m22.38_rep17_log.txt
+run_m22.38_rep18_log.txt
+run_m22.38_rep1_log.txt
+run_m22.38_rep2_log.txt
+run_m22.38_rep3_log.txt
+run_m22.38_rep4_log.txt
+run_m22.38_rep5_log.txt
+run_m22.38_rep6_log.txt
+run_m22.38_rep7_log.txt
+run_m22.38_rep8_log.txt
+run_m22.38_rep9_log.txt
+run_m235.75_rep10_log.txt
+run_m235.75_rep11_log.txt
+run_m235.75_rep12_log.txt
+run_m235.75_rep13_log.txt
+run_m235.75_rep14_log.txt
+run_m235.75_rep15_log.txt
+run_m235.75_rep16_log.txt
+run_m235.75_rep17_log.txt
+run_m235.75_rep18_log.txt
+run_m235.75_rep1_log.txt
+run_m235.75_rep2_log.txt
+run_m235.75_rep3_log.txt
+run_m235.75_rep4_log.txt
+run_m235.75_rep5_log.txt
+run_m235.75_rep6_log.txt
+run_m235.75_rep7_log.txt
+run_m235.75_rep8_log.txt
+run_m235.75_rep9_log.txt
+run_m23.61_rep10_log.txt
+run_m23.61_rep11_log.txt
+run_m23.61_rep12_log.txt
+run_m23.61_rep13_log.txt
+run_m23.61_rep14_log.txt
+run_m23.61_rep15_log.txt
+run_m23.61_rep16_log.txt
+run_m23.61_rep17_log.txt
+run_m23.61_rep18_log.txt
+run_m23.61_rep1_log.txt
+run_m23.61_rep2_log.txt
+run_m23.61_rep3_log.txt
+run_m23.61_rep4_log.txt
+run_m23.61_rep5_log.txt
+run_m23.61_rep6_log.txt
+run_m23.61_rep7_log.txt
+run_m23.61_rep8_log.txt
+run_m23.61_rep9_log.txt
+run_m248.71_rep10_log.txt
+run_m248.71_rep11_log.txt
+run_m248.71_rep12_log.txt
+run_m248.71_rep13_log.txt
+run_m248.71_rep14_log.txt
+run_m248.71_rep15_log.txt
+run_m248.71_rep16_log.txt
+run_m248.71_rep17_log.txt
+run_m248.71_rep18_log.txt
+run_m248.71_rep1_log.txt
+run_m248.71_rep2_log.txt
+run_m248.71_rep3_log.txt
+run_m248.71_rep4_log.txt
+run_m248.71_rep5_log.txt
+run_m248.71_rep6_log.txt
+run_m248.71_rep7_log.txt
+run_m248.71_rep8_log.txt
+run_m248.71_rep9_log.txt
+run_m24.90_rep10_log.txt
+run_m24.90_rep11_log.txt
+run_m24.90_rep12_log.txt
+run_m24.90_rep13_log.txt
+run_m24.90_rep14_log.txt
+run_m24.90_rep15_log.txt
+run_m24.90_rep16_log.txt
+run_m24.90_rep17_log.txt
+run_m24.90_rep18_log.txt
+run_m24.90_rep1_log.txt
+run_m24.90_rep2_log.txt
+run_m24.90_rep3_log.txt
+run_m24.90_rep4_log.txt
+run_m24.90_rep5_log.txt
+run_m24.90_rep6_log.txt
+run_m24.90_rep7_log.txt
+run_m24.90_rep8_log.txt
+run_m24.90_rep9_log.txt
+run_m262.38_rep10_log.txt
+run_m262.38_rep11_log.txt
+run_m262.38_rep12_log.txt
+run_m262.38_rep13_log.txt
+run_m262.38_rep14_log.txt
+run_m262.38_rep15_log.txt
+run_m262.38_rep16_log.txt
+run_m262.38_rep17_log.txt
+run_m262.38_rep1_log.txt
+run_m262.38_rep2_log.txt
+run_m262.38_rep3_log.txt
+run_m262.38_rep4_log.txt
+run_m262.38_rep5_log.txt
+run_m262.38_rep6_log.txt
+run_m262.38_rep7_log.txt
+run_m262.38_rep8_log.txt
+run_m262.38_rep9_log.txt
+run_m26.27_rep10_log.txt
+run_m26.27_rep11_log.txt
+run_m26.27_rep12_log.txt
+run_m26.27_rep13_log.txt
+run_m26.27_rep14_log.txt
+run_m26.27_rep15_log.txt
+run_m26.27_rep16_log.txt
+run_m26.27_rep17_log.txt
+run_m26.27_rep18_log.txt
+run_m26.27_rep1_log.txt
+run_m26.27_rep2_log.txt
+run_m26.27_rep3_log.txt
+run_m26.27_rep4_log.txt
+run_m26.27_rep5_log.txt
+run_m26.27_rep6_log.txt
+run_m26.27_rep7_log.txt
+run_m26.27_rep8_log.txt
+run_m26.27_rep9_log.txt
+run_m276.81_rep10_log.txt
+run_m276.81_rep11_log.txt
+run_m276.81_rep12_log.txt
+run_m276.81_rep13_log.txt
+run_m276.81_rep14_log.txt
+run_m276.81_rep15_log.txt
+run_m276.81_rep16_log.txt
+run_m276.81_rep17_log.txt
+run_m276.81_rep1_log.txt
+run_m276.81_rep2_log.txt
+run_m276.81_rep3_log.txt
+run_m276.81_rep4_log.txt
+run_m276.81_rep5_log.txt
+run_m276.81_rep6_log.txt
+run_m276.81_rep7_log.txt
+run_m276.81_rep8_log.txt
+run_m276.81_rep9_log.txt
+run_m27.72_rep10_log.txt
+run_m27.72_rep11_log.txt
+run_m27.72_rep12_log.txt
+run_m27.72_rep13_log.txt
+run_m27.72_rep14_log.txt
+run_m27.72_rep15_log.txt
+run_m27.72_rep16_log.txt
+run_m27.72_rep17_log.txt
+run_m27.72_rep18_log.txt
+run_m27.72_rep1_log.txt
+run_m27.72_rep2_log.txt
+run_m27.72_rep3_log.txt
+run_m27.72_rep4_log.txt
+run_m27.72_rep5_log.txt
+run_m27.72_rep6_log.txt
+run_m27.72_rep7_log.txt
+run_m27.72_rep8_log.txt
+run_m27.72_rep9_log.txt
+run_m292.02_rep10_log.txt
+run_m292.02_rep11_log.txt
+run_m292.02_rep12_log.txt
+run_m292.02_rep13_log.txt
+run_m292.02_rep14_log.txt
+run_m292.02_rep15_log.txt
+run_m292.02_rep16_log.txt
+run_m292.02_rep17_log.txt
+run_m292.02_rep1_log.txt
+run_m292.02_rep2_log.txt
+run_m292.02_rep3_log.txt
+run_m292.02_rep4_log.txt
+run_m292.02_rep5_log.txt
+run_m292.02_rep6_log.txt
+run_m292.02_rep7_log.txt
+run_m292.02_rep8_log.txt
+run_m292.02_rep9_log.txt
+run_m29.24_rep10_log.txt
+run_m29.24_rep11_log.txt
+run_m29.24_rep12_log.txt
+run_m29.24_rep13_log.txt
+run_m29.24_rep14_log.txt
+run_m29.24_rep15_log.txt
+run_m29.24_rep16_log.txt
+run_m29.24_rep17_log.txt
+run_m29.24_rep18_log.txt
+run_m29.24_rep1_log.txt
+run_m29.24_rep2_log.txt
+run_m29.24_rep3_log.txt
+run_m29.24_rep4_log.txt
+run_m29.24_rep5_log.txt
+run_m29.24_rep6_log.txt
+run_m29.24_rep7_log.txt
+run_m29.24_rep8_log.txt
+run_m29.24_rep9_log.txt
+run_m308.08_rep10_log.txt
+run_m308.08_rep11_log.txt
+run_m308.08_rep12_log.txt
+run_m308.08_rep13_log.txt
+run_m308.08_rep14_log.txt
+run_m308.08_rep15_log.txt
+run_m308.08_rep16_log.txt
+run_m308.08_rep17_log.txt
+run_m308.08_rep1_log.txt
+run_m308.08_rep2_log.txt
+run_m308.08_rep3_log.txt
+run_m308.08_rep4_log.txt
+run_m308.08_rep5_log.txt
+run_m308.08_rep6_log.txt
+run_m308.08_rep7_log.txt
+run_m308.08_rep8_log.txt
+run_m308.08_rep9_log.txt
+run_m30.85_rep10_log.txt
+run_m30.85_rep11_log.txt
+run_m30.85_rep12_log.txt
+run_m30.85_rep13_log.txt
+run_m30.85_rep14_log.txt
+run_m30.85_rep15_log.txt
+run_m30.85_rep16_log.txt
+run_m30.85_rep17_log.txt
+run_m30.85_rep18_log.txt
+run_m30.85_rep1_log.txt
+run_m30.85_rep2_log.txt
+run_m30.85_rep3_log.txt
+run_m30.85_rep4_log.txt
+run_m30.85_rep5_log.txt
+run_m30.85_rep6_log.txt
+run_m30.85_rep7_log.txt
+run_m30.85_rep8_log.txt
+run_m30.85_rep9_log.txt
+run_m325.01_rep10_log.txt
+run_m325.01_rep11_log.txt
+run_m325.01_rep12_log.txt
+run_m325.01_rep13_log.txt
+run_m325.01_rep14_log.txt
+run_m325.01_rep15_log.txt
+run_m325.01_rep16_log.txt
+run_m325.01_rep17_log.txt
+run_m325.01_rep1_log.txt
+run_m325.01_rep2_log.txt
+run_m325.01_rep3_log.txt
+run_m325.01_rep4_log.txt
+run_m325.01_rep5_log.txt
+run_m325.01_rep6_log.txt
+run_m325.01_rep7_log.txt
+run_m325.01_rep8_log.txt
+run_m325.01_rep9_log.txt
+run_m32.54_rep10_log.txt
+run_m32.54_rep11_log.txt
+run_m32.54_rep12_log.txt
+run_m32.54_rep13_log.txt
+run_m32.54_rep14_log.txt
+run_m32.54_rep15_log.txt
+run_m32.54_rep16_log.txt
+run_m32.54_rep17_log.txt
+run_m32.54_rep18_log.txt
+run_m32.54_rep1_log.txt
+run_m32.54_rep2_log.txt
+run_m32.54_rep3_log.txt
+run_m32.54_rep4_log.txt
+run_m32.54_rep5_log.txt
+run_m32.54_rep6_log.txt
+run_m32.54_rep7_log.txt
+run_m32.54_rep8_log.txt
+run_m32.54_rep9_log.txt
+run_m342.88_rep10_log.txt
+run_m342.88_rep11_log.txt
+run_m342.88_rep12_log.txt
+run_m342.88_rep13_log.txt
+run_m342.88_rep14_log.txt
+run_m342.88_rep15_log.txt
+run_m342.88_rep16_log.txt
+run_m342.88_rep17_log.txt
+run_m342.88_rep1_log.txt
+run_m342.88_rep2_log.txt
+run_m342.88_rep3_log.txt
+run_m342.88_rep4_log.txt
+run_m342.88_rep5_log.txt
+run_m342.88_rep6_log.txt
+run_m342.88_rep7_log.txt
+run_m342.88_rep8_log.txt
+run_m342.88_rep9_log.txt
+run_m34.33_rep10_log.txt
+run_m34.33_rep11_log.txt
+run_m34.33_rep12_log.txt
+run_m34.33_rep13_log.txt
+run_m34.33_rep14_log.txt
+run_m34.33_rep15_log.txt
+run_m34.33_rep16_log.txt
+run_m34.33_rep17_log.txt
+run_m34.33_rep18_log.txt
+run_m34.33_rep1_log.txt
+run_m34.33_rep2_log.txt
+run_m34.33_rep3_log.txt
+run_m34.33_rep4_log.txt
+run_m34.33_rep5_log.txt
+run_m34.33_rep6_log.txt
+run_m34.33_rep7_log.txt
+run_m34.33_rep8_log.txt
+run_m34.33_rep9_log.txt
+run_m361.73_rep10_log.txt
+run_m361.73_rep11_log.txt
+run_m361.73_rep12_log.txt
+run_m361.73_rep13_log.txt
+run_m361.73_rep14_log.txt
+run_m361.73_rep15_log.txt
+run_m361.73_rep16_log.txt
+run_m361.73_rep17_log.txt
+run_m361.73_rep1_log.txt
+run_m361.73_rep2_log.txt
+run_m361.73_rep3_log.txt
+run_m361.73_rep4_log.txt
+run_m361.73_rep5_log.txt
+run_m361.73_rep6_log.txt
+run_m361.73_rep7_log.txt
+run_m361.73_rep8_log.txt
+run_m361.73_rep9_log.txt
+run_m36.22_rep10_log.txt
+run_m36.22_rep11_log.txt
+run_m36.22_rep12_log.txt
+run_m36.22_rep13_log.txt
+run_m36.22_rep14_log.txt
+run_m36.22_rep15_log.txt
+run_m36.22_rep16_log.txt
+run_m36.22_rep17_log.txt
+run_m36.22_rep18_log.txt
+run_m36.22_rep1_log.txt
+run_m36.22_rep2_log.txt
+run_m36.22_rep3_log.txt
+run_m36.22_rep4_log.txt
+run_m36.22_rep5_log.txt
+run_m36.22_rep6_log.txt
+run_m36.22_rep7_log.txt
+run_m36.22_rep8_log.txt
+run_m36.22_rep9_log.txt
+run_m381.62_rep10_log.txt
+run_m381.62_rep11_log.txt
+run_m381.62_rep12_log.txt
+run_m381.62_rep13_log.txt
+run_m381.62_rep14_log.txt
+run_m381.62_rep15_log.txt
+run_m381.62_rep16_log.txt
+run_m381.62_rep17_log.txt
+run_m381.62_rep1_log.txt
+run_m381.62_rep2_log.txt
+run_m381.62_rep3_log.txt
+run_m381.62_rep4_log.txt
+run_m381.62_rep5_log.txt
+run_m381.62_rep6_log.txt
+run_m381.62_rep7_log.txt
+run_m381.62_rep8_log.txt
+run_m381.62_rep9_log.txt
+run_m38.21_rep10_log.txt
+run_m38.21_rep11_log.txt
+run_m38.21_rep12_log.txt
+run_m38.21_rep13_log.txt
+run_m38.21_rep14_log.txt
+run_m38.21_rep15_log.txt
+run_m38.21_rep16_log.txt
+run_m38.21_rep17_log.txt
+run_m38.21_rep18_log.txt
+run_m38.21_rep1_log.txt
+run_m38.21_rep2_log.txt
+run_m38.21_rep3_log.txt
+run_m38.21_rep4_log.txt
+run_m38.21_rep5_log.txt
+run_m38.21_rep6_log.txt
+run_m38.21_rep7_log.txt
+run_m38.21_rep8_log.txt
+run_m38.21_rep9_log.txt
+run_m402.60_rep10_log.txt
+run_m402.60_rep11_log.txt
+run_m402.60_rep12_log.txt
+run_m402.60_rep13_log.txt
+run_m402.60_rep14_log.txt
+run_m402.60_rep15_log.txt
+run_m402.60_rep16_log.txt
+run_m402.60_rep17_log.txt
+run_m402.60_rep1_log.txt
+run_m402.60_rep2_log.txt
+run_m402.60_rep3_log.txt
+run_m402.60_rep4_log.txt
+run_m402.60_rep5_log.txt
+run_m402.60_rep6_log.txt
+run_m402.60_rep7_log.txt
+run_m402.60_rep8_log.txt
+run_m402.60_rep9_log.txt
+run_m40.31_rep10_log.txt
+run_m40.31_rep11_log.txt
+run_m40.31_rep12_log.txt
+run_m40.31_rep13_log.txt
+run_m40.31_rep14_log.txt
+run_m40.31_rep15_log.txt
+run_m40.31_rep16_log.txt
+run_m40.31_rep17_log.txt
+run_m40.31_rep18_log.txt
+run_m40.31_rep1_log.txt
+run_m40.31_rep2_log.txt
+run_m40.31_rep3_log.txt
+run_m40.31_rep4_log.txt
+run_m40.31_rep5_log.txt
+run_m40.31_rep6_log.txt
+run_m40.31_rep7_log.txt
+run_m40.31_rep8_log.txt
+run_m40.31_rep9_log.txt
+run_m424.73_rep10_log.txt
+run_m424.73_rep11_log.txt
+run_m424.73_rep12_log.txt
+run_m424.73_rep13_log.txt
+run_m424.73_rep14_log.txt
+run_m424.73_rep15_log.txt
+run_m424.73_rep16_log.txt
+run_m424.73_rep17_log.txt
+run_m424.73_rep1_log.txt
+run_m424.73_rep2_log.txt
+run_m424.73_rep3_log.txt
+run_m424.73_rep4_log.txt
+run_m424.73_rep5_log.txt
+run_m424.73_rep6_log.txt
+run_m424.73_rep7_log.txt
+run_m424.73_rep8_log.txt
+run_m424.73_rep9_log.txt
+run_m42.53_rep10_log.txt
+run_m42.53_rep11_log.txt
+run_m42.53_rep12_log.txt
+run_m42.53_rep13_log.txt
+run_m42.53_rep14_log.txt
+run_m42.53_rep15_log.txt
+run_m42.53_rep16_log.txt
+run_m42.53_rep17_log.txt
+run_m42.53_rep18_log.txt
+run_m42.53_rep1_log.txt
+run_m42.53_rep2_log.txt
+run_m42.53_rep3_log.txt
+run_m42.53_rep4_log.txt
+run_m42.53_rep5_log.txt
+run_m42.53_rep6_log.txt
+run_m42.53_rep7_log.txt
+run_m42.53_rep8_log.txt
+run_m42.53_rep9_log.txt
+run_m448.08_rep10_log.txt
+run_m448.08_rep11_log.txt
+run_m448.08_rep12_log.txt
+run_m448.08_rep13_log.txt
+run_m448.08_rep14_log.txt
+run_m448.08_rep15_log.txt
+run_m448.08_rep16_log.txt
+run_m448.08_rep17_log.txt
+run_m448.08_rep1_log.txt
+run_m448.08_rep2_log.txt
+run_m448.08_rep3_log.txt
+run_m448.08_rep4_log.txt
+run_m448.08_rep5_log.txt
+run_m448.08_rep6_log.txt
+run_m448.08_rep7_log.txt
+run_m448.08_rep8_log.txt
+run_m448.08_rep9_log.txt
+run_m44.87_rep10_log.txt
+run_m44.87_rep11_log.txt
+run_m44.87_rep12_log.txt
+run_m44.87_rep13_log.txt
+run_m44.87_rep14_log.txt
+run_m44.87_rep15_log.txt
+run_m44.87_rep16_log.txt
+run_m44.87_rep17_log.txt
+run_m44.87_rep18_log.txt
+run_m44.87_rep1_log.txt
+run_m44.87_rep2_log.txt
+run_m44.87_rep3_log.txt
+run_m44.87_rep4_log.txt
+run_m44.87_rep5_log.txt
+run_m44.87_rep6_log.txt
+run_m44.87_rep7_log.txt
+run_m44.87_rep8_log.txt
+run_m44.87_rep9_log.txt
+run_m472.72_rep10_log.txt
+run_m472.72_rep11_log.txt
+run_m472.72_rep12_log.txt
+run_m472.72_rep13_log.txt
+run_m472.72_rep14_log.txt
+run_m472.72_rep15_log.txt
+run_m472.72_rep16_log.txt
+run_m472.72_rep17_log.txt
+run_m472.72_rep1_log.txt
+run_m472.72_rep2_log.txt
+run_m472.72_rep3_log.txt
+run_m472.72_rep4_log.txt
+run_m472.72_rep5_log.txt
+run_m472.72_rep6_log.txt
+run_m472.72_rep7_log.txt
+run_m472.72_rep8_log.txt
+run_m472.72_rep9_log.txt
+run_m47.33_rep10_log.txt
+run_m47.33_rep11_log.txt
+run_m47.33_rep12_log.txt
+run_m47.33_rep13_log.txt
+run_m47.33_rep14_log.txt
+run_m47.33_rep15_log.txt
+run_m47.33_rep16_log.txt
+run_m47.33_rep17_log.txt
+run_m47.33_rep18_log.txt
+run_m47.33_rep1_log.txt
+run_m47.33_rep2_log.txt
+run_m47.33_rep3_log.txt
+run_m47.33_rep4_log.txt
+run_m47.33_rep5_log.txt
+run_m47.33_rep6_log.txt
+run_m47.33_rep7_log.txt
+run_m47.33_rep8_log.txt
+run_m47.33_rep9_log.txt
+run_m498.71_rep10_log.txt
+run_m498.71_rep11_log.txt
+run_m498.71_rep12_log.txt
+run_m498.71_rep13_log.txt
+run_m498.71_rep14_log.txt
+run_m498.71_rep15_log.txt
+run_m498.71_rep16_log.txt
+run_m498.71_rep17_log.txt
+run_m498.71_rep1_log.txt
+run_m498.71_rep2_log.txt
+run_m498.71_rep3_log.txt
+run_m498.71_rep4_log.txt
+run_m498.71_rep5_log.txt
+run_m498.71_rep6_log.txt
+run_m498.71_rep7_log.txt
+run_m498.71_rep8_log.txt
+run_m498.71_rep9_log.txt
+run_m49.94_rep10_log.txt
+run_m49.94_rep11_log.txt
+run_m49.94_rep12_log.txt
+run_m49.94_rep13_log.txt
+run_m49.94_rep14_log.txt
+run_m49.94_rep15_log.txt
+run_m49.94_rep16_log.txt
+run_m49.94_rep17_log.txt
+run_m49.94_rep18_log.txt
+run_m49.94_rep1_log.txt
+run_m49.94_rep2_log.txt
+run_m49.94_rep3_log.txt
+run_m49.94_rep4_log.txt
+run_m49.94_rep5_log.txt
+run_m49.94_rep6_log.txt
+run_m49.94_rep7_log.txt
+run_m49.94_rep8_log.txt
+run_m49.94_rep9_log.txt
+run_m526.12_rep10_log.txt
+run_m526.12_rep11_log.txt
+run_m526.12_rep12_log.txt
+run_m526.12_rep13_log.txt
+run_m526.12_rep14_log.txt
+run_m526.12_rep15_log.txt
+run_m526.12_rep16_log.txt
+run_m526.12_rep17_log.txt
+run_m526.12_rep1_log.txt
+run_m526.12_rep2_log.txt
+run_m526.12_rep3_log.txt
+run_m526.12_rep4_log.txt
+run_m526.12_rep5_log.txt
+run_m526.12_rep6_log.txt
+run_m526.12_rep7_log.txt
+run_m526.12_rep8_log.txt
+run_m526.12_rep9_log.txt
+run_m52.68_rep10_log.txt
+run_m52.68_rep11_log.txt
+run_m52.68_rep12_log.txt
+run_m52.68_rep13_log.txt
+run_m52.68_rep14_log.txt
+run_m52.68_rep15_log.txt
+run_m52.68_rep16_log.txt
+run_m52.68_rep17_log.txt
+run_m52.68_rep18_log.txt
+run_m52.68_rep1_log.txt
+run_m52.68_rep2_log.txt
+run_m52.68_rep3_log.txt
+run_m52.68_rep4_log.txt
+run_m52.68_rep5_log.txt
+run_m52.68_rep6_log.txt
+run_m52.68_rep7_log.txt
+run_m52.68_rep8_log.txt
+run_m52.68_rep9_log.txt
+run_m555.05_rep10_log.txt
+run_m555.05_rep11_log.txt
+run_m555.05_rep12_log.txt
+run_m555.05_rep13_log.txt
+run_m555.05_rep14_log.txt
+run_m555.05_rep15_log.txt
+run_m555.05_rep16_log.txt
+run_m555.05_rep17_log.txt
+run_m555.05_rep1_log.txt
+run_m555.05_rep2_log.txt
+run_m555.05_rep3_log.txt
+run_m555.05_rep4_log.txt
+run_m555.05_rep5_log.txt
+run_m555.05_rep6_log.txt
+run_m555.05_rep7_log.txt
+run_m555.05_rep8_log.txt
+run_m555.05_rep9_log.txt
+run_m55.58_rep10_log.txt
+run_m55.58_rep11_log.txt
+run_m55.58_rep12_log.txt
+run_m55.58_rep13_log.txt
+run_m55.58_rep14_log.txt
+run_m55.58_rep15_log.txt
+run_m55.58_rep16_log.txt
+run_m55.58_rep17_log.txt
+run_m55.58_rep18_log.txt
+run_m55.58_rep1_log.txt
+run_m55.58_rep2_log.txt
+run_m55.58_rep3_log.txt
+run_m55.58_rep4_log.txt
+run_m55.58_rep5_log.txt
+run_m55.58_rep6_log.txt
+run_m55.58_rep7_log.txt
+run_m55.58_rep8_log.txt
+run_m55.58_rep9_log.txt
+run_m585.56_rep10_log.txt
+run_m585.56_rep11_log.txt
+run_m585.56_rep12_log.txt
+run_m585.56_rep13_log.txt
+run_m585.56_rep14_log.txt
+run_m585.56_rep15_log.txt
+run_m585.56_rep16_log.txt
+run_m585.56_rep17_log.txt
+run_m585.56_rep1_log.txt
+run_m585.56_rep2_log.txt
+run_m585.56_rep3_log.txt
+run_m585.56_rep4_log.txt
+run_m585.56_rep5_log.txt
+run_m585.56_rep6_log.txt
+run_m585.56_rep7_log.txt
+run_m585.56_rep8_log.txt
+run_m585.56_rep9_log.txt
+run_m58.63_rep10_log.txt
+run_m58.63_rep11_log.txt
+run_m58.63_rep12_log.txt
+run_m58.63_rep13_log.txt
+run_m58.63_rep14_log.txt
+run_m58.63_rep15_log.txt
+run_m58.63_rep16_log.txt
+run_m58.63_rep17_log.txt
+run_m58.63_rep18_log.txt
+run_m58.63_rep1_log.txt
+run_m58.63_rep2_log.txt
+run_m58.63_rep3_log.txt
+run_m58.63_rep4_log.txt
+run_m58.63_rep5_log.txt
+run_m58.63_rep6_log.txt
+run_m58.63_rep7_log.txt
+run_m58.63_rep8_log.txt
+run_m58.63_rep9_log.txt
+run_m617.75_rep10_log.txt
+run_m617.75_rep11_log.txt
+run_m617.75_rep12_log.txt
+run_m617.75_rep13_log.txt
+run_m617.75_rep14_log.txt
+run_m617.75_rep15_log.txt
+run_m617.75_rep16_log.txt
+run_m617.75_rep17_log.txt
+run_m617.75_rep1_log.txt
+run_m617.75_rep2_log.txt
+run_m617.75_rep3_log.txt
+run_m617.75_rep4_log.txt
+run_m617.75_rep5_log.txt
+run_m617.75_rep6_log.txt
+run_m617.75_rep7_log.txt
+run_m617.75_rep8_log.txt
+run_m617.75_rep9_log.txt
+run_m61.86_rep10_log.txt
+run_m61.86_rep11_log.txt
+run_m61.86_rep12_log.txt
+run_m61.86_rep13_log.txt
+run_m61.86_rep14_log.txt
+run_m61.86_rep15_log.txt
+run_m61.86_rep16_log.txt
+run_m61.86_rep17_log.txt
+run_m61.86_rep18_log.txt
+run_m61.86_rep1_log.txt
+run_m61.86_rep2_log.txt
+run_m61.86_rep3_log.txt
+run_m61.86_rep4_log.txt
+run_m61.86_rep5_log.txt
+run_m61.86_rep6_log.txt
+run_m61.86_rep7_log.txt
+run_m61.86_rep8_log.txt
+run_m61.86_rep9_log.txt
+run_m651.72_rep10_log.txt
+run_m651.72_rep11_log.txt
+run_m651.72_rep12_log.txt
+run_m651.72_rep13_log.txt
+run_m651.72_rep14_log.txt
+run_m651.72_rep15_log.txt
+run_m651.72_rep16_log.txt
+run_m651.72_rep17_log.txt
+run_m651.72_rep1_log.txt
+run_m651.72_rep2_log.txt
+run_m651.72_rep3_log.txt
+run_m651.72_rep4_log.txt
+run_m651.72_rep5_log.txt
+run_m651.72_rep6_log.txt
+run_m651.72_rep7_log.txt
+run_m651.72_rep8_log.txt
+run_m651.72_rep9_log.txt
+run_m65.26_rep10_log.txt
+run_m65.26_rep11_log.txt
+run_m65.26_rep12_log.txt
+run_m65.26_rep13_log.txt
+run_m65.26_rep14_log.txt
+run_m65.26_rep15_log.txt
+run_m65.26_rep16_log.txt
+run_m65.26_rep17_log.txt
+run_m65.26_rep18_log.txt
+run_m65.26_rep1_log.txt
+run_m65.26_rep2_log.txt
+run_m65.26_rep3_log.txt
+run_m65.26_rep4_log.txt
+run_m65.26_rep5_log.txt
+run_m65.26_rep6_log.txt
+run_m65.26_rep7_log.txt
+run_m65.26_rep8_log.txt
+run_m65.26_rep9_log.txt
+run_m687.54_rep10_log.txt
+run_m687.54_rep11_log.txt
+run_m687.54_rep12_log.txt
+run_m687.54_rep13_log.txt
+run_m687.54_rep14_log.txt
+run_m687.54_rep15_log.txt
+run_m687.54_rep16_log.txt
+run_m687.54_rep17_log.txt
+run_m687.54_rep1_log.txt
+run_m687.54_rep2_log.txt
+run_m687.54_rep3_log.txt
+run_m687.54_rep4_log.txt
+run_m687.54_rep5_log.txt
+run_m687.54_rep6_log.txt
+run_m687.54_rep7_log.txt
+run_m687.54_rep8_log.txt
+run_m687.54_rep9_log.txt
+run_m68.84_rep10_log.txt
+run_m68.84_rep11_log.txt
+run_m68.84_rep12_log.txt
+run_m68.84_rep13_log.txt
+run_m68.84_rep14_log.txt
+run_m68.84_rep15_log.txt
+run_m68.84_rep16_log.txt
+run_m68.84_rep17_log.txt
+run_m68.84_rep18_log.txt
+run_m68.84_rep1_log.txt
+run_m68.84_rep2_log.txt
+run_m68.84_rep3_log.txt
+run_m68.84_rep4_log.txt
+run_m68.84_rep5_log.txt
+run_m68.84_rep6_log.txt
+run_m68.84_rep7_log.txt
+run_m68.84_rep8_log.txt
+run_m68.84_rep9_log.txt
+run_m725.34_rep10_log.txt
+run_m725.34_rep11_log.txt
+run_m725.34_rep12_log.txt
+run_m725.34_rep13_log.txt
+run_m725.34_rep14_log.txt
+run_m725.34_rep15_log.txt
+run_m725.34_rep16_log.txt
+run_m725.34_rep17_log.txt
+run_m725.34_rep1_log.txt
+run_m725.34_rep2_log.txt
+run_m725.34_rep3_log.txt
+run_m725.34_rep4_log.txt
+run_m725.34_rep5_log.txt
+run_m725.34_rep6_log.txt
+run_m725.34_rep7_log.txt
+run_m725.34_rep8_log.txt
+run_m725.34_rep9_log.txt
+run_m72.63_rep10_log.txt
+run_m72.63_rep11_log.txt
+run_m72.63_rep12_log.txt
+run_m72.63_rep13_log.txt
+run_m72.63_rep14_log.txt
+run_m72.63_rep15_log.txt
+run_m72.63_rep16_log.txt
+run_m72.63_rep17_log.txt
+run_m72.63_rep18_log.txt
+run_m72.63_rep1_log.txt
+run_m72.63_rep2_log.txt
+run_m72.63_rep3_log.txt
+run_m72.63_rep4_log.txt
+run_m72.63_rep5_log.txt
+run_m72.63_rep6_log.txt
+run_m72.63_rep7_log.txt
+run_m72.63_rep8_log.txt
+run_m72.63_rep9_log.txt
+run_m765.22_rep10_log.txt
+run_m765.22_rep11_log.txt
+run_m765.22_rep12_log.txt
+run_m765.22_rep13_log.txt
+run_m765.22_rep14_log.txt
+run_m765.22_rep15_log.txt
+run_m765.22_rep16_log.txt
+run_m765.22_rep17_log.txt
+run_m765.22_rep1_log.txt
+run_m765.22_rep2_log.txt
+run_m765.22_rep3_log.txt
+run_m765.22_rep4_log.txt
+run_m765.22_rep5_log.txt
+run_m765.22_rep6_log.txt
+run_m765.22_rep7_log.txt
+run_m765.22_rep8_log.txt
+run_m765.22_rep9_log.txt
+run_m76.62_rep10_log.txt
+run_m76.62_rep11_log.txt
+run_m76.62_rep12_log.txt
+run_m76.62_rep13_log.txt
+run_m76.62_rep14_log.txt
+run_m76.62_rep15_log.txt
+run_m76.62_rep16_log.txt
+run_m76.62_rep17_log.txt
+run_m76.62_rep18_log.txt
+run_m76.62_rep1_log.txt
+run_m76.62_rep2_log.txt
+run_m76.62_rep3_log.txt
+run_m76.62_rep4_log.txt
+run_m76.62_rep5_log.txt
+run_m76.62_rep6_log.txt
+run_m76.62_rep7_log.txt
+run_m76.62_rep8_log.txt
+run_m76.62_rep9_log.txt
+run_m807.29_rep10_log.txt
+run_m807.29_rep11_log.txt
+run_m807.29_rep12_log.txt
+run_m807.29_rep13_log.txt
+run_m807.29_rep14_log.txt
+run_m807.29_rep15_log.txt
+run_m807.29_rep16_log.txt
+run_m807.29_rep17_log.txt
+run_m807.29_rep1_log.txt
+run_m807.29_rep2_log.txt
+run_m807.29_rep3_log.txt
+run_m807.29_rep4_log.txt
+run_m807.29_rep5_log.txt
+run_m807.29_rep6_log.txt
+run_m807.29_rep7_log.txt
+run_m807.29_rep8_log.txt
+run_m807.29_rep9_log.txt
+run_m80.83_rep10_log.txt
+run_m80.83_rep11_log.txt
+run_m80.83_rep12_log.txt
+run_m80.83_rep13_log.txt
+run_m80.83_rep14_log.txt
+run_m80.83_rep15_log.txt
+run_m80.83_rep16_log.txt
+run_m80.83_rep17_log.txt
+run_m80.83_rep18_log.txt
+run_m80.83_rep1_log.txt
+run_m80.83_rep2_log.txt
+run_m80.83_rep3_log.txt
+run_m80.83_rep4_log.txt
+run_m80.83_rep5_log.txt
+run_m80.83_rep6_log.txt
+run_m80.83_rep7_log.txt
+run_m80.83_rep8_log.txt
+run_m80.83_rep9_log.txt
+run_m851.67_rep10_log.txt
+run_m851.67_rep11_log.txt
+run_m851.67_rep12_log.txt
+run_m851.67_rep13_log.txt
+run_m851.67_rep14_log.txt
+run_m851.67_rep15_log.txt
+run_m851.67_rep16_log.txt
+run_m851.67_rep17_log.txt
+run_m851.67_rep1_log.txt
+run_m851.67_rep2_log.txt
+run_m851.67_rep3_log.txt
+run_m851.67_rep4_log.txt
+run_m851.67_rep5_log.txt
+run_m851.67_rep6_log.txt
+run_m851.67_rep7_log.txt
+run_m851.67_rep8_log.txt
+run_m851.67_rep9_log.txt
+run_m85.28_rep10_log.txt
+run_m85.28_rep11_log.txt
+run_m85.28_rep12_log.txt
+run_m85.28_rep13_log.txt
+run_m85.28_rep14_log.txt
+run_m85.28_rep15_log.txt
+run_m85.28_rep16_log.txt
+run_m85.28_rep17_log.txt
+run_m85.28_rep18_log.txt
+run_m85.28_rep1_log.txt
+run_m85.28_rep2_log.txt
+run_m85.28_rep3_log.txt
+run_m85.28_rep4_log.txt
+run_m85.28_rep5_log.txt
+run_m85.28_rep6_log.txt
+run_m85.28_rep7_log.txt
+run_m85.28_rep8_log.txt
+run_m85.28_rep9_log.txt
+run_m898.49_rep10_log.txt
+run_m898.49_rep11_log.txt
+run_m898.49_rep12_log.txt
+run_m898.49_rep13_log.txt
+run_m898.49_rep14_log.txt
+run_m898.49_rep15_log.txt
+run_m898.49_rep16_log.txt
+run_m898.49_rep17_log.txt
+run_m898.49_rep1_log.txt
+run_m898.49_rep2_log.txt
+run_m898.49_rep3_log.txt
+run_m898.49_rep4_log.txt
+run_m898.49_rep5_log.txt
+run_m898.49_rep6_log.txt
+run_m898.49_rep7_log.txt
+run_m898.49_rep8_log.txt
+run_m898.49_rep9_log.txt
+run_m89.97_rep10_log.txt
+run_m89.97_rep11_log.txt
+run_m89.97_rep12_log.txt
+run_m89.97_rep13_log.txt
+run_m89.97_rep14_log.txt
+run_m89.97_rep15_log.txt
+run_m89.97_rep16_log.txt
+run_m89.97_rep17_log.txt
+run_m89.97_rep18_log.txt
+run_m89.97_rep1_log.txt
+run_m89.97_rep2_log.txt
+run_m89.97_rep3_log.txt
+run_m89.97_rep4_log.txt
+run_m89.97_rep5_log.txt
+run_m89.97_rep6_log.txt
+run_m89.97_rep7_log.txt
+run_m89.97_rep8_log.txt
+run_m89.97_rep9_log.txt
+run_m947.89_rep10_log.txt
+run_m947.89_rep11_log.txt
+run_m947.89_rep12_log.txt
+run_m947.89_rep13_log.txt
+run_m947.89_rep14_log.txt
+run_m947.89_rep15_log.txt
+run_m947.89_rep16_log.txt
+run_m947.89_rep17_log.txt
+run_m947.89_rep1_log.txt
+run_m947.89_rep2_log.txt
+run_m947.89_rep3_log.txt
+run_m947.89_rep4_log.txt
+run_m947.89_rep5_log.txt
+run_m947.89_rep6_log.txt
+run_m947.89_rep7_log.txt
+run_m947.89_rep8_log.txt
+run_m947.89_rep9_log.txt
+run_m94.91_rep10_log.txt
+run_m94.91_rep11_log.txt
+run_m94.91_rep12_log.txt
+run_m94.91_rep13_log.txt
+run_m94.91_rep14_log.txt
+run_m94.91_rep15_log.txt
+run_m94.91_rep16_log.txt
+run_m94.91_rep17_log.txt
+run_m94.91_rep18_log.txt
+run_m94.91_rep1_log.txt
+run_m94.91_rep2_log.txt
+run_m94.91_rep3_log.txt
+run_m94.91_rep4_log.txt
+run_m94.91_rep5_log.txt
+run_m94.91_rep6_log.txt
+run_m94.91_rep7_log.txt
+run_m94.91_rep8_log.txt
+run_m94.91_rep9_log.txt
+--------------------- Multi run with 12 jobs. ---------------------
+job a0 : 98315000000.0 98315000000.0 +- 793910000.0 1144.0
+job b0 : 98816000000.0 98816000000.0 +- 793910000.0 1116.0
+job c0 : 97439000000.0 97439000000.0 +- 880650000.0 1123.0
+job d0 : 98481000000.0 98481000000.0 +- 791460000.0 1107.0
+job e0 : 98744000000.0 98744000000.0 +- 805500000.0 1147.0
+job f0 : 98627000000.0 98627000000.0 +- 796450000.0 1118.0
+job g0 : 98717000000.0 98717000000.0 +- 789430000.0 1101.0
+job h0 : 98820000000.0 98820000000.0 +- 789820000.0 1170.0
+job i0 : 97514000000.0 97514000000.0 +- 789860000.0 1108.0
+job j0 : 99459000000.0 99459000000.0 +- 801070000.0 1101.0
+job k0 : 97269000000.0 97269000000.0 +- 786670000.0 1132.0
+job l0 : 99032000000.0 99032000000.0 +- 794310000.0 1155.0

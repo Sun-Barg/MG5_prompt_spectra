@@ -1,0 +1,17 @@
+
+set nb_core 16                  
+set automatic_html_opening False
+launch sfdm_4b -n run_m1000.00
+shower=Pythia8
+set run_card nevents 100000
+set use_syst False
+set lpp1 0
+set lpp2 0
+set mpsi 1000.0
+set ebeam1 1000.1
+set ebeam2 1000.1
+set mh2 1000.0
+set width 38 Auto
+set pythia8_card Main:numberOfEvents 100000
+0
+quit
