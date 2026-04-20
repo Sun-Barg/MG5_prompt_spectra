@@ -1,43 +1,81 @@
-************************************************************
-*                                                          *
-*   W E L C O M E  to  M A D G R A P H 5 _ a M C @ N L O   *
-*                                                          *
-*                                                          *
-*                 *                       *                *
-*                   *        * *        *                  *
-*                     * * * * 5 * * * *                    *
-*                   *        * *        *                  *
-*                 *                       *                *
-*                                                          *
-*    The MadGraph5_aMC@NLO Development Team - Find us at   *
-*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
-*                            and                           *
-*                  http://amcatnlo.cern.ch                 *
-*                                                          *
-*                   Code download from:                    *
-*             https://launchpad.net/madgraph5              *
-*                                                          *
-*    Please refer to: MadGraph5_aMC@NLO paper              *
-*               J. Alwall et al.                           * 
-*               arXiv:1405.0301, JHEP 1407 (2014) 079      *
-************************************************************
+MG5_SFDM_Spectrum 명령어
 
-To run MadGraph5_aMC@NLO using the command line interface 
----------------------------------------------------
-This mode of running hols both for Leading-Order computations and handling
-of loop processes.
-./bin/mg5_aMC
-Type "help" for list of commands and "help [command]" for help
-on individual commands. 
-Type "tutorial" for an interactive quick-start tutorial for LO computations.
-Type "tutorial aMCatNLO" for a tutorial on aMC@NLO runs for NLO computations.
-Type "tutorial MadLoop" for a tutorial on MadLoop for learning how to output
-standalone codes for loop process evaluation for given PS points.
+conda install -c conda-forge gxx_linux-64 gcc_linux-64 make cmake lhapdf python=3.10 -y
 
+export PYTHIA8DATA=/home/haebarg/MG5_aMC_v3_5_6/HEPTools/pythia8/share/Pythia8/xmldoc
 
-To run using the Template bin/newprocess_mg5 script
----------------------------------------------------
-Not available anymore (since v2.0.0).
-But you can still run MadGraph5_aMC@NLO by doing the following:
-./bin/mg5_aMC proc_card.dat
+set nb_core 1
+set run_mode 0
+set automatic_html_opening False
+set timeout 0
+set use_syst True
 
+import model SFDM-Gev-modify-UFO/
+define dm = ~psi ~psibar
+generate dm dm > b b~ (4b : dm dm > h2 h2, h2 > b b~ / 2b2tau : dm dm > h2 h2, (h2 > b b~), (h2 > ta- ta+))
+output dm_bb
+launch
+
+set use_syst False
+set mpsi 100.0
+set width 38 Auto
+set lpp1 0
+set lpp2 0
+set ebeam1 100.1
+set ebeam2 100.1
+set mh2 200
+set pdlabel none
+set pythia8_card Main:numberOfEvents 10000
+
+-> pythia8 이벤트 개수 설정
+pythia card에서
+Main:numberOfEvents = 10000
+으로 설정
+
++++uv 사용 간단 명령어+++
+uv venv —python 3.11
+uv pip install -U 패키지이름
+source .venv/bin/activate
+
++++각 코드별 사용법, 순서+++
+1. MG5 running code
+run_mass_scan.py : MG5를 지정한 질량 등의 옵션으로 실행시킴 (기본 : 2b)
+run_4b_scan.py, run_4tau.py 등으로 복사 후 파일명을 변경하여 병렬 실행
+run_repeat_scan.py : run_mass_scan code를 기반으로, nevents를 줄이고 nrepeats을 추가하여 실제 data 발생량 증가시킴
+run_repeat_ratio.py : repeat code를 기반으로 mh2와 mpsi의 ratio를 고려하도록 수정
+
+2. Save data code
+save_spectra.py : 옵션 내에서 지정한 channel과 spectrum을 추출하여 저장
+save_separate_spectra.py : MG5의 event 디렉토리에서부터 data를 추출하여 photon, positron, antiproton으로 나눠 저장
+save_4b_spectra.py 등으로 복사 후 파일명 변경하여 실행
+save_repeated_spectra.py : repeat을 사용하여 계산한 process의 data를 추출하여 저장할 때에 활용
+save_repeat_ratio.py : repeated code를 기반으로, ratio까지 고려하도록 수정
+
+3. Plot data code
+plot_spectra.py : 옵션 내에서 지정한 spectrum을 x(E/m) vs dN/dx로 plot
+plot_spectra_energy.py : 옵션 내에서 지정한 spectrum을 E vs dN/dE로 plot
+plot_all_spectra.py : x, E 두 가지를 모두 plot
+plot_smooth_spectra.py : data point가 적어 flux shape이 안 보일 경우 Gaussian Smoothing으로 보정하여 plot
+
+4. Interpolation code
+interpolation_tool.py : 옵션 내에서 지정한 channel의 spectra를 interpolate하여 저장
+
+5. Compare code
+compare_with_pppc.py : interpolated data와 pppc4의 특정 질량에서의 스펙트럼을 비교하여 저장
+compare_interp_on_off.py : interpolated data를 이용해 on-shell만 포함한 것과 off-shell까지 모두 포함한 data를 비교
+compare_sfdm_effective.py : effective 4body와 sfdm 4body의 data를 비교
+
+6. merge wihh pppc4
+merge_pppc_4body.py : E vs dN/dE 추출해서 pppc4 형태로 저장
+
++ 이후 data directory 압축하여 전송
+tar -cvzf Spectra_Data_{Channel}.tar.gz Spectra_Data_{Channel}
+
++ renaming
+rename_off_data.py
+
++ 저장 파일 설명 (Spectra_Data_{channel} 내에 data 저장)
+MM_mpsi{mass}GeV_{channel}_{particle}.csv : 각 질량, 채널, 입자에 따른 데이터
+interpolator_{channel}_{particle}.pkl : csv data를 추합하여 interpolate한 파일. 여기서 원하는 질량의 data 추출 가능
+intepolation_test_{channel}_{particle}.png : spectrum의 interpolate된 shape을 특정 질량에서 확인
+compare_{channel}_{particle}_{mass}.png : 특정 질량에서의 spectrum을 pppc4등 다른 데이터와 비교
